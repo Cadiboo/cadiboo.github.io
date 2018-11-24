@@ -24,6 +24,7 @@ description: The home of Cadiboo's GitHub Projects!
 # List of links in the navigation bar
 navbar-links:
   Projects:
+    - All Projects: "https://cadiboo.github.io/projects/"
     - NoCubes: "https://cadiboo.github.io/projects/nocubes/"
     - RenderChunk rebuildChunk Hooks: "https://cadiboo.github.io/projects/render_chunk_rebuild_chunk_hooks/"
     - WIPTech: "https://cadiboo.github.io/projects/wiptech/"
