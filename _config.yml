@@ -17,7 +17,7 @@ baseurl: ""
 title: Cadiboo's Pages
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: The home of Cadiboo's GitHub Projects!
 
 # --- Navigation bar options --- #
 
@@ -25,6 +25,8 @@ description: A virtual proof that name is awesome!
 navbar-links:
   Projects:
     - NoCubes: "https://cadiboo.github.io/projects/nocubes/"
+    - RenderChunk rebuildChunk Hooks: "https://cadiboo.github.io/projects/render_chunk_rebuild_chunk_hooks/"
+    - WIPTech: "https://cadiboo.github.io/projects/wiptech/"
   About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
@@ -66,7 +68,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Cadiboo
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -101,7 +103,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "Home"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
