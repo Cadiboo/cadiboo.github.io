@@ -2,7 +2,6 @@
 layout: page
 title: NoCubes
 subtitle: A mod for 1.12.2 using Forge that creates a cosmetic-only curved terrain layout in Minecraft
-image: /projects/nocubes/nocubes.png
 ---
 
 ![alt text](/projects/nocubes/nocubes_shaders.png "NoCubes with Shaders")
