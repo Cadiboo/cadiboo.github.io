@@ -1,7 +1,11 @@
 ---
-layout: post
-title: First post!
-image: /img/hello_world.jpeg
+layout: page
+title: Projects
+sibtitle: All my projects and a bit about them
+image: /projects/nocubes/nocubes.jpeg
 ---
 
-This is my first post, how exciting!
+Projects
+- [NoCubes](/projects/nocubes/)
+- [RenderChunk rebuildChunk Hooks](/projects/render_chunk_rebuild_chunk_hooks/)
+- [WIPTech](/projects/wiptech/)
