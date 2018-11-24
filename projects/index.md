@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 sibtitle: All my projects and a bit about them
-image: /projects/nocubes/nocubes.jpeg
+image: /projects/nocubes/nocubes_shaders.png
 ---
 
 Projects
