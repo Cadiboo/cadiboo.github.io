@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-sibtitle: All my projects and a bit about them
+subtitle: All my projects and a bit about them
 ---
 
 ![alt text](/projects/nocubes/nocubes_shaders.png "NoCubes with Shaders")

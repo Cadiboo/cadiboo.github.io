@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NoCubes
-sibtitle: A mod for 1.12.2 using Forge that creates a cosmetic-only curved terrain layout in Minecraft
+subtitle: A mod for 1.12.2 using Forge that creates a cosmetic-only curved terrain layout in Minecraft
 image: /projects/nocubes/nocubes.png
 ---
 
