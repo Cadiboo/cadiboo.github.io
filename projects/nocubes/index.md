@@ -5,6 +5,8 @@ sibtitle: A mod for 1.12.2 using Forge that creates a cosmetic-only curved terra
 image: /projects/nocubes/nocubes.png
 ---
 
+![alt text](/projects/nocubes/nocubes_shaders.png "NoCubes with Shaders")
+
 Downloads
 - [NoCubes (Latest)](https://github.com/Cadiboo/NoCubes/releases/latest)
 - [RenderChunk rebuildChunk Hooks (Latest)](https://github.com/Cadiboo/RenderChunk-rebuildChunk-Hooks/releases/latest) (Required by NoCubes)

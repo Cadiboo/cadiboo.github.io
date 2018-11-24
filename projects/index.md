@@ -2,8 +2,9 @@
 layout: page
 title: Projects
 sibtitle: All my projects and a bit about them
-image: /projects/nocubes/nocubes_shaders.png
 ---
+
+![alt text](/projects/nocubes/nocubes_shaders.png "NoCubes with Shaders")
 
 Projects
 - [NoCubes](/projects/nocubes/)
