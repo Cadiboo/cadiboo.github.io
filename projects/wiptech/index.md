@@ -5,5 +5,5 @@ subtitle: A technology based mod that adds many real life (and some theoreticall
 image: /projects/wiptech/wiptech.png
 ---
 
-##### Downloads
+### Downloads
 - [WIPTech (Latest)](https://github.com/Cadiboo/WIPTech/releases/latest)

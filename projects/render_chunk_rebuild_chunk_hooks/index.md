@@ -5,5 +5,5 @@ subtitle: A small(ish) coremod for 1.12.2 to inject hooks into RenderChunk#rebui
 image: /projects/render_chunk_rebuild_chunk_hooks/render_chunk_rebuild_chunk_hooks.png
 ---
 
-##### Downloads
+### Downloads
 - [RenderChunk rebuildChunk Hooks (Latest)](https://github.com/Cadiboo/RenderChunk-rebuildChunk-Hooks/releases/latest)
