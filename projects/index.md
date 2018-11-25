@@ -4,7 +4,7 @@ title: Projects
 subtitle: All my projects and a bit about them
 ---
 
-![alt text](/projects/nocubes/nocubes_shaders.png "NoCubes with Shaders")
+![alt text](/projects/modding.png "Modding")
 
 Projects
 - [NoCubes](/projects/nocubes/)
