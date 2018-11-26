@@ -33,6 +33,7 @@ navbar-links:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
+    - Site Source: "https://github.com/Cadiboo/Cadiboo.github.io"
   Author's home: "https://github.com/Cadiboo/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -78,9 +79,9 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-#  email: "someone@example.com"
+  email: "37298044+Cadiboo@users.noreply.github.com"
 #  facebook: daattali
-  github: cadiboo
+  github: Cadiboo
 #  twitter: daattali
 #  reddit: yourname
 #  google-plus: +DeanAttali
