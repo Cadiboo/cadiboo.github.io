@@ -40,7 +40,11 @@ Inline-style2:
 Reference-style: 
 ![alt text][logo]
 
+Reference-style2: 
+![alt text][logo2]
+
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[logo2]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 [nocubes_shaders]: /projects/nocubes/screenshots/nocubes_shaders.png ""
 [plains]: /projects/nocubes/screenshots/plains.png ""
