@@ -4,9 +4,7 @@ title: NoCubes
 subtitle: A mod for 1.12.2 using Forge that creates a cosmetic-only curved terrain layout in Minecraft
 image: /projects/nocubes/nocubes.png
 ---
-
-![alt text](/projects/nocubes/nocubes_shaders.png "NoCubes with Shaders")
-
+![alt text](/projects/nocubes/banner.png "NoCubes logo by Spoobs Ghostly")
 ### Downloads
 - [NoCubes (Latest)](https://github.com/Cadiboo/NoCubes/releases/latest)
 - [RenderChunk rebuildChunk Hooks (Latest)](https://github.com/Cadiboo/RenderChunk-rebuildChunk-Hooks/releases/latest) (Required by NoCubes)
@@ -21,3 +19,11 @@ For Testing
 - [NoCubes (1.7.2-1.7.10-0.8)](/projects/mods/nocubes/noCubes-1.7.2-1.7.10-0.8.jar)
 - [NoCubes (1.7.10-1.0)](/projects/nocubes/mods/nocubes-1.0.jar)
 - [NoCubes (1.7.10-1.3.2)](/projects/nocubes/mods/[1.7.10]NoCubes1.3.2-Fixed.jar)
+
+### Screenshots
+NoCubes with Sildurs Vibrant Shaders, Optifine and Better Foliage
+![alt text](/projects/nocubes/screenshots/nocubes_shaders.png "NoCubes with Shaders")
+NoCubes with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
+![alt text](/projects/nocubes/screenshots/plains.png "NoCubes with Shaders in Plains Biome")
+NoCubes with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
+![alt text](/projects/nocubes/screenshots/plains_hill_wolf.png "NoCubes with Shaders in Plains Biome looking up hill with Wolves")
