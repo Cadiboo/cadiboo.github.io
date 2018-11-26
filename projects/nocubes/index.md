@@ -22,32 +22,10 @@ For Testing
 
 ### Screenshots
 NoCubes with Sildurs Vibrant Shaders, Optifine and Better Foliage
-[![NoCubes with Shaders](nocubes_shaders)](nocubes_shaders)
+[![NoCubes with Shaders](/projects/nocubes/screenshots/nocubes_shaders.png "NoCubes with Shaders")](/projects/nocubes/screenshots/nocubes_shaders.png)
 NoCubes with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
-[![NoCubes with Shaders in Plains Biome](plains)](plains)
+[![NoCubes with Shaders in Plains Biome](/projects/nocubes/screenshots/plains.png "NoCubes with Shaders in Plains Biome")](/projects/nocubes/screenshots/plains.png)
 NoCubes with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
-[![NoCubes with Shaders in Plains Biome looking up hill with Wolves](plains_hill_wolf)](plains_hill_wolf)
+[![NoCubes with Shaders in Plains Biome looking up hill with Wolves](/projects/nocubes/screenshots/plains_hill_wolf.png "NoCubes with Shaders in Plains Biome looking up hill with Wolves")](/projects/nocubes/screenshots/plains_hill_wolf.png)
 
 
-Here's our logo (hover to see the title text):
-
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Inline-style2: 
-!["Logo Title Text 1"](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png )
-
-Reference-style: 
-![alt text][logo]
-
-Reference-style2: 
-![alt text][logo2]
-
-[Hello](logo2);
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-[logo2]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-
-[nocubes_shaders]: /projects/nocubes/screenshots/nocubes_shaders.png ""
-[plains]: /projects/nocubes/screenshots/plains.png ""
-[plains_hill_wolf]: /projects/nocubes/screenshots/plains_hill_wolf.png ""
