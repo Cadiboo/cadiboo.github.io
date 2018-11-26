@@ -4,7 +4,8 @@ title: NoCubes
 subtitle: A mod for 1.12.2 using Forge that creates a cosmetic-only curved terrain layout in Minecraft
 image: /projects/nocubes/nocubes.png
 ---
-![alt text](/projects/nocubes/banner.png "NoCubes logo by Spoobs Ghostly")
+![NoCubes logo by Diamond Crundee](/projects/nocubes/nocubeslogo.png "NoCubes logo by Diamond Crundee")
+![NoCubes logo by Spoobs Ghostly](/projects/nocubes/banner.png "NoCubes logo by Spoobs Ghostly")
 ### Downloads
 - [NoCubes (Latest)](https://github.com/Cadiboo/NoCubes/releases/latest)
 - [RenderChunk rebuildChunk Hooks (Latest)](https://github.com/Cadiboo/RenderChunk-rebuildChunk-Hooks/releases/latest) (Required by NoCubes)
