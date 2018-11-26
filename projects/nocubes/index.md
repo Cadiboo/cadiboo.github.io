@@ -22,8 +22,12 @@ For Testing
 
 ### Screenshots
 NoCubes with Sildurs Vibrant Shaders, Optifine and Better Foliage
-[![alt text test](/projects/nocubes/screenshots/nocubes_shaders.png2 "NoCubes with Shaders")](/projects/nocubes/screenshots/nocubes_shaders.png)
+[![NoCubes with Shaders](nocubes_shaders)](nocubes_shaders)
 NoCubes with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
-![alt text](/projects/nocubes/screenshots/plains.png "NoCubes with Shaders in Plains Biome")
+[![NoCubes with Shaders in Plains Biome](plains)](plains)
 NoCubes with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
-![alt text](/projects/nocubes/screenshots/plains_hill_wolf.png "NoCubes with Shaders in Plains Biome looking up hill with Wolves")
+[!["NoCubes with Shaders in Plains Biome looking up hill with Wolves"](plains_hill_wolf)](plains_hill_wolf)
+
+[nocubes_shaders]: /projects/nocubes/screenshots/nocubes_shaders.png
+[plains]: /projects/nocubes/screenshots/plains.png
+[plains_hill_wolf]: /projects/nocubes/screenshots/plains_hill_wolf.png
