@@ -22,7 +22,7 @@ For Testing
 
 ### Screenshots
 NoCubes with Sildurs Vibrant Shaders, Optifine and Better Foliage
-![alt text](/projects/nocubes/screenshots/nocubes_shaders.png "NoCubes with Shaders")
+[![alt text test](/projects/nocubes/screenshots/nocubes_shaders.png2 "NoCubes with Shaders")](/projects/nocubes/screenshots/nocubes_shaders.png)
 NoCubes with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
 ![alt text](/projects/nocubes/screenshots/plains.png "NoCubes with Shaders in Plains Biome")
 NoCubes with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
