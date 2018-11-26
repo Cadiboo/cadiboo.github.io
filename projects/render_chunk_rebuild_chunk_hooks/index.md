@@ -7,3 +7,16 @@ image: /projects/render_chunk_rebuild_chunk_hooks/render_chunk_rebuild_chunk_hoo
 
 ### Downloads
 - [RenderChunk rebuildChunk Hooks (Latest)](https://github.com/Cadiboo/RenderChunk-rebuildChunk-Hooks/releases/latest)
+
+## Support
+We currently support any combination of the below **on the same Forge version**
+
+| Name          | Version       | Forge Version         | Minecraft Version|
+| ------------- | ------------- | --------------------- | ---------------- |
+| Forge         | 14.23.5.2775  | 1.12.2 - 14.23.5.2775 | 1.12.2           |
+| BetterFoliage | MC1.12-2.2.0  | 1.12.2 - 14.23.5.2775 | 1.12.2           |
+| Forge         | 14.23.5.2768  | 1.12.2 - 14.23.5.2768 | 1.12.2           |
+| BetterFoliage | MC1.12-2.2.0  | 1.12.2 - 14.23.5.2768 | 1.12.2           |
+| Forge         | 14.23.4.2725  | 1.12.2 - 14.23.4.2725 | 1.12.2           |
+| BetterFoliage | MC1.12-2.2.0  | 1.12.2 - 14.23.4.2725 | 1.12.2           |
+| Optifine      | HD_U_E2       | 1.12.2 - 14.23.4.2725 | 1.12.2           |
