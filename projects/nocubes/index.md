@@ -5,9 +5,9 @@ subtitle: A mod for 1.12.2 using Forge that creates a cosmetic-only curved terra
 image: /projects/nocubes/nocubes.png
 ---
 Final Aim for NoCubes
+
 [![High-Resolution mountain picture by John Westrock](/projects/nocubes/john-westrock-1189512-unsplash.png "High-Resolution mountain picture by John Westrock")](https://unsplash.com/@johnwestrock?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge)
-![NoCubes logo by Diamond Crundee](/projects/nocubes/nocubeslogo.png "NoCubes logo by Diamond Crundee")
-![NoCubes logo by Spoobs Ghostly](/projects/nocubes/banner.png "NoCubes logo by Spoobs Ghostly")
+
 ### Downloads
 - [NoCubes (Latest)](https://github.com/Cadiboo/NoCubes/releases/latest)
 - [RenderChunk rebuildChunk Hooks (Latest)](https://github.com/Cadiboo/RenderChunk-rebuildChunk-Hooks/releases/latest) (Required by NoCubes)
@@ -25,10 +25,13 @@ For Testing
 
 ### Screenshots
 NoCubes with Sildurs Vibrant Shaders, Optifine and Better Foliage
+
 [![NoCubes with Shaders](/projects/nocubes/screenshots/nocubes_shaders.png "NoCubes with Shaders")](/projects/nocubes/screenshots/nocubes_shaders.png)
+
 NoCubes with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
+
 [![NoCubes with Shaders in Plains Biome](/projects/nocubes/screenshots/plains.png "NoCubes with Shaders in Plains Biome")](/projects/nocubes/screenshots/plains.png)
+
 NoCubes with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
+
 [![NoCubes with Shaders in Plains Biome looking up hill with Wolves](/projects/nocubes/screenshots/plains_hill_wolf.png "NoCubes with Shaders in Plains Biome looking up hill with Wolves")](/projects/nocubes/screenshots/plains_hill_wolf.png)
-
-
