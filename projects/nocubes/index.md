@@ -4,7 +4,7 @@ title: NoCubes
 subtitle: A mod for 1.12.2 using Forge that creates a cosmetic-only curved terrain layout in Minecraft
 image: /projects/nocubes/nocubes.png
 ---
-Final Aim
+Final Aim for NoCubes
 [![High-Resolution mountain picture by John Westrock](/projects/nocubes/john-westrock-1189512-unsplash.png "High-Resolution mountain picture by John Westrock")](https://unsplash.com/@johnwestrock?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge)
 ![NoCubes logo by Diamond Crundee](/projects/nocubes/nocubeslogo.png "NoCubes logo by Diamond Crundee")
 ![NoCubes logo by Spoobs Ghostly](/projects/nocubes/banner.png "NoCubes logo by Spoobs Ghostly")
