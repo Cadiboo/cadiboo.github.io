@@ -23,11 +23,15 @@ For Testing
 - [NoCubes (1.7.10-1.3.2)](/projects/nocubes/mods/[1.7.10]NoCubes1.3.2-Fixed.jar)
 
 ### Screenshots
-NoCubes with Sildurs Vibrant Shaders, Optifine and Better Foliage
-[![NoCubes with Shaders](/projects/nocubes/screenshots/nocubes_shaders.png "NoCubes with Shaders")](/projects/nocubes/screenshots/nocubes_shaders.png)
 
-NoCubes with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
-[![NoCubes with Shaders in Plains Biome](/projects/nocubes/screenshots/plains.png "NoCubes with Shaders in Plains Biome")](/projects/nocubes/screenshots/plains.png)
+NoCubes (Marching Cubes Algorithm) with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
+[![NoCubes (Marching Cubes Algorithm) with Shaders in Plains Biome](/projects/nocubes/screenshots/marching_cubes_plains.png "NoCubes (Marching Cubes Algorithm) with Shaders in Plains Biome")](/projects/nocubes/screenshots/marching_cubes_plains.png)
 
-NoCubes with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
-[![NoCubes with Shaders in Plains Biome looking up hill with Wolves](/projects/nocubes/screenshots/plains_hill_wolf.png "NoCubes with Shaders in Plains Biome looking up hill with Wolves")](/projects/nocubes/screenshots/plains_hill_wolf.png)
+NoCubes (Marching Cubes Algorithm) with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
+[![NoCubes (Marching Cubes Algorithm) with Shaders in Plains Biome looking up hill with Wolves](/projects/nocubes/screenshots/marching_cubes_plains_hill_wolf.png "NoCubes (Marching Cubes Algorithm) with Shaders in Plains Biome looking up hill with Wolves")](/projects/nocubes/screenshots/marching_cubes_plains_hill_wolf.png)
+
+NoCubes (Surface Nets Algorithm) at Ravine with Sildurs Vibrant Shaders, Optifine and Better Foliage
+[![NoCubes (Surface Nets Algorithm) at Ravine  with Shaders](/projects/nocubes/screenshots/surface_nets_ravine_day.png "NoCubes (Surface Nets Algorithm) at Ravine with Shaders")](/projects/nocubes/screenshots/surface_nets_ravine_day.png)
+
+NoCubes (Marching Cubes Algorithm) on Hillside with Sildurs Vibrant Shaders, Optifine and Better Foliage
+[![NoCubes (Marching Cubes Algorithm) on Hillside with Shaders](/projects/nocubes/screenshots/marching_cubes_hillside_shaders.png "NoCubes (Marching Cubes Algorithm) on Hillside with Shaders")](/projects/nocubes/screenshots/marching_cubes_hillside_shaders.png)
