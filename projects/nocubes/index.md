@@ -22,9 +22,9 @@ For Testing
 - [NoCubes (1.7.10-1.0)](/projects/nocubes/mods/nocubes-1.0.jar)
 - [NoCubes (1.7.10-1.3.2)](/projects/nocubes/mods/[1.7.10]NoCubes1.3.2-Fixed.jar)
 
-### Discord
-###### [NoCubes Discord Server](https://discord.gg/zKP8EgY)
-Installation support, ingame support, development updates, a big screenshot gallery, the list of implemented & planned features for the mod, the todo list of the mod (accurate block collisions, texture fading/merging), suggestions (feel free to tell me your opinions!), contributions and other general chat about the mod
+### [Discord Server](https://discord.gg/zKP8EgY)
+Get installation support, ingame support, development updates, a big screenshot gallery, the list of implemented & planned features for the mod and the todo list of the mod (accurate block collisions, texture connecting/joining/fading/merging) on our server.
+The server is also a place to tell me your feature requests/suggestions/opinions and to just chat about the mod and similar stuff.
 
 ### Screenshots (There are much better ones in #gallery on the discord server!)
 NoCubes (Surface Nets Algorithm) with SEUS shaders? view of lake submitted by Tailer {picture coming soon}
