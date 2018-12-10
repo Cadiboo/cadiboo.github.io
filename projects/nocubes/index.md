@@ -22,7 +22,14 @@ For Testing
 - [NoCubes (1.7.10-1.0)](/projects/nocubes/mods/nocubes-1.0.jar)
 - [NoCubes (1.7.10-1.3.2)](/projects/nocubes/mods/[1.7.10]NoCubes1.3.2-Fixed.jar)
 
-### Screenshots
+### Discord
+[NoCubes Discord Server](https://discord.gg/zKP8EgY)
+Installation support, ingame support, development updates, a big screenshot gallery, the list of implemented & planned features for the mod, the todo list of the mod (accurate block collisions, texture fading/merging), suggestions (feel free to tell me your opinions!), contributions and other general chat about the mod
+
+### Screenshots (There are much better ones in #gallery on the discord server!)
+NoCubes (Surface Nets Algorithm) with SEUS shaders? view of lake submitted by Tailer {picture coming soon}
+NoCubes (Surface Nets Algorithm) with Oceano shaders view island from water at sunset submitted by Ginez0n {picture coming soon}
+NoCubes (Surface Nets Algorithm) with Continum shaders and resource pack view of overhang with sunlight submitted by MineAndCraft12 {picture coming soon}
 
 NoCubes (Marching Cubes Algorithm) with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
 [![NoCubes (Marching Cubes Algorithm) with Shaders in Plains Biome](/projects/nocubes/screenshots/marching_cubes_plains.png "NoCubes (Marching Cubes Algorithm) with Shaders in Plains Biome")](/projects/nocubes/screenshots/marching_cubes_plains.png)
