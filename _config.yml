@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Cadiboo's Pages
+title: Cadiboo's Projects
 
 # Short description of your site
-description: The home of Cadiboo's GitHub Projects!
+description: The home of Cadiboo's Programming Endeavours!
 
 # --- Navigation bar options --- #
 
@@ -79,7 +79,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "37298044+Cadiboo@users.noreply.github.com"
+  email: "cadiboodev@gmail.com"
 #  facebook: daattali
   github: Cadiboo
 #  twitter: daattali
