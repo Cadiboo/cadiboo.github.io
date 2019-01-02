@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NoCubes Optimisation
-subtitle: SurfaceNets is now theoretically 61x faster!
+subtitle: I can run the algorithms on the GPU! In other news, Java hates me
 tags: [nocubes]
 ---
 
