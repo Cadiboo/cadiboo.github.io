@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NoCubes
-subtitle: A mod for 1.12.2 using Forge that creates a cosmetic-only curved terrain layout in Minecraft
+subtitle: A mod for 1.12.2 using Forge that creates (currently) cosmetic-only curved terrain layout in Minecraft
 image: /projects/nocubes/nocubes.png
 ---
 Final Aim for NoCubes
@@ -12,6 +12,13 @@ Final Aim for NoCubes
 ### [Discord Server](https://discord.gg/zKP8EgY)
 Get installation support, ingame support, development updates, a big screenshot gallery, the list of implemented & planned features for the mod and the todo list of the mod (accurate block collisions, texture connecting/joining/fading/merging) on our server.
 The server is also a place to tell me your feature requests/suggestions/opinions and to just chat about the mod and similar stuff.
+
+### ToDo List
+- [x] Performance (Upgraded by 61x)
+- [ ] Smooth lighting (Code is written, needs some testing & debugging)
+- [ ] CullFacing Issues
+- [ ] Collisions (Part of the code is written, needs optimisation)
+
 
 ### Screenshots (There are much better ones in #gallery on the discord server!)
 NoCubes (Surface Nets Algorithm) with SEUS shaders? view of lake submitted by Tailer {picture coming soon}
