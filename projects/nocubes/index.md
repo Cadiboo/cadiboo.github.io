@@ -15,15 +15,14 @@ The server is also a place to tell me your feature requests/suggestions/opinions
 
 ### ToDo List
 - [x] Performance (Upgraded by 61x)
-- [ ] Smooth lighting (Code is written, needs some testing & debugging)
+- [x] Smooth lighting (Works perfectly!)
 - [ ] CullFacing Issues
 - [ ] Collisions (Part of the code is written, needs optimisation)
 
 
 ### Screenshots (There are much better ones in #gallery on the discord server!)
-NoCubes (Surface Nets Algorithm) with SEUS shaders? view of lake submitted by Tailer {picture coming soon}
-NoCubes (Surface Nets Algorithm) with Oceano shaders view island from water at sunset submitted by Ginez0n {picture coming soon}
-NoCubes (Surface Nets Algorithm) with Continum shaders and resource pack view of overhang with sunlight submitted by MineAndCraft12 {picture coming soon}
+NoCubes (Surface Nets Algorithm) on water looking at cliff with caves with Sildurs Vibrant Shaders, Optifine
+[![NoCubes (Surface Nets Algorithm) on water looking at cliff with caves with Shaders](/projects/nocubes/screenshots/surface_nets_water_cliff_cave_shaders.png "NoCubes (Marching Cubes Algorithm) on Hillside with Shaders")](/projects/nocubes/screenshots/surface_nets_water_cliff_cave_shaders.png)
 
 NoCubes (Marching Cubes Algorithm) with Pulchra Revisited ResourcePack, Sonic Ether's Unbelieveable Shaders, Optifine and Better Foliage (Submitted by Luca)
 [![NoCubes (Marching Cubes Algorithm) with Shaders in Plains Biome](/projects/nocubes/screenshots/marching_cubes_plains.png "NoCubes (Marching Cubes Algorithm) with Shaders in Plains Biome")](/projects/nocubes/screenshots/marching_cubes_plains.png)
