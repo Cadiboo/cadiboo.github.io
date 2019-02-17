@@ -5,6 +5,7 @@ subtitle: Coming Soon
 ---
 
 # Tutorials
+## Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites) first!
 ### Forge
 - [1.12.2](https://cadiboo.github.io/tutorials/1.12.2/)
 - [1.13.2](https://cadiboo.github.io/tutorials/1.13.2/)
