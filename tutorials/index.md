@@ -1,8 +1,13 @@
 ---
 layout: page
-title: 1.13.0 Tutorials
+title: Modding Tutorials
 subtitle: Coming Soon
 ---
 
-# Coming soon!
-Once I figure out how to do it myself...
+# Tutorials
+### Forge
+- [1.12.2](https://cadiboo.github.io/tutorials/1.12.2/)
+- [1.13.2](https://cadiboo.github.io/tutorials/1.13.2/)
+
+### Fabric
+- I haven't started them yet. Find Fabric info at https://fabricmc.net and https://fabricmc.net/wiki/setup
