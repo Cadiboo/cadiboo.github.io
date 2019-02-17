@@ -23,6 +23,11 @@ description: The home of Cadiboo's Programming Endeavours!
 
 # List of links in the navigation bar
 navbar-links:
+  Tutorials:
+    - All Tutorials: "https://cadiboo.github.io/tutorials/"
+    - 1.12.2 Forge: "https://cadiboo.github.io/tutorials/1.12.2/"
+    - 1.13.2 Forge: "https://cadiboo.github.io/tutorials/1.13.2/"
+    - 1.14 Fabric: "https://cadiboo.github.io/tutorials/"
   Projects:
     - All Projects: "https://cadiboo.github.io/projects/"
     - NoCubes: "https://cadiboo.github.io/projects/nocubes/"
