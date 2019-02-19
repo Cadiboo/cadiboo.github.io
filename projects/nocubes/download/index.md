@@ -3,16 +3,16 @@ layout: page
 title: Download NoCubes
 image: /projects/nocubes/nocubes.png
 ---
-# Download No Cubes Mod for 1.12.2 / 1.7.10 / 1.7.2
+# Download No Cubes Mod for 1.13.2 / 1.12.2 / 1.7.10 / 1.7.2
 
 ## CurseForge (Stable)
-- [No Cubes 1.12.2](https://minecraft.curseforge.com/projects/nocubes/files)
+- [No Cubes 1.13.2](https://minecraft.curseforge.com/projects/nocubes/files)
 - [RenderChunk rebuildChunk Hooks](https://minecraft.curseforge.com/projects/renderchunk-rebuildchunk-hooks/files) (Required by NoCubes)
 
 ## IMPORTANT
 Don’t forget that the smooth lighting is set based on your video settings, but everything else is changed from on the mods config which can be found at Mod List > NoCubes > Config
 
-There are a bunch of cool options in the config that can make the visuals a lot better. (Beautify textures, change the rendering algorithm, smooth liquids etc.)
+There are a bunch of cool options in the config that can make the visuals a lot better. (Beautify textures, change the rendering algorithm, extend liquids etc.)
 
 ## GitHub (Unstable Pre-releases)
 - [No Cubes (Unstable)](https://github.com/Cadiboo/NoCubes/releases/latest)
