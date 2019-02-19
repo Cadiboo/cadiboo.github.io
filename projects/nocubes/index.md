@@ -10,7 +10,7 @@ Final Aim for NoCubes
 ### [Download](/projects/nocubes/download)
 Download the mod here
 
-### [Discord Server](https://discord.gg/zKP8EgY)
+### [Discord Server](/projects/nocubes/discord)
 Get support, development updates, pre-releases and much, much more on our discord server.
 
 ### ToDo List
