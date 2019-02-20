@@ -19,6 +19,8 @@ Get support, development updates, pre-releases and much, much more on our discor
 - [ ] CullFacing Issues
 - [ ] Collisions (Part of the code is written, needs optimisation)
 
+### Latest mod review
+[https://youtu.be/18jRus3rEE4](https://youtu.be/18jRus3rEE4)
 
 ### Screenshots (There are much better ones in #gallery on the discord server!)
 NoCubes 1.13.2
