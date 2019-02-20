@@ -1,10 +1,8 @@
 ---
 layout: page
 title: 1.13.2 Tutorials
-subtitle: Coming Soon
+subtitle: Forge, Rift
 ---
 
-# Coming soon!
-Once I have time and finish updating my mods...
-
-## Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites) first!
+# [Forge 1.13.2 Tutorials](/tutorials/1.13.2/forge/)
+# [Rift 1.13.2 Tutorials](/tutorials/1.13.2/rift/) (Not Written Yet)
