@@ -4,8 +4,9 @@ title: Modding Pre-requisites
 ---
 
 # Step 1 - Learn Java
-It is ***HIGHLY RECCOMENDED*** that you learn Java before attempting to make a mod. Even 2 hours learning about it before trying to make a mod help immeasurably. You can learn about Java many ways. Here are some Java tutorials I reccomend:
-- [javatpoint.com/java-tutorial](https://www.javatpoint.com/java-tutorial)
+It is ***HIGHLY RECCOMENDED*** that you learn Java before attempting to make a mod. Even 2 hours learning about it before trying to make a mod help **immeasurably**. You can learn about Java many ways. Here are some Java tutorials I reccomend:
+- [https://www.javatpoint.com/java-tutorial](https://www.javatpoint.com/java-tutorial)
+
 It is also reccomended, however not neccesary, that you know about Java Reflection and Java Streams
 
 # Step 2 - Install the latest Java 8 JDK (Java Development Kit)
