@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 1.13.2 Tutorials
-subtitle: Forge, Rift
+Read the Pre-requisites first!
 ---
 
 # [Forge 1.13.2 Tutorials](/tutorials/1.13.2/forge/)
