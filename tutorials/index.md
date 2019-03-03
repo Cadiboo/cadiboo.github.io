@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Modding Tutorials
-subtitle: Coming Soon
+subtitle: 1.12.2, 1.13.2
 ---
 
 # Tutorials

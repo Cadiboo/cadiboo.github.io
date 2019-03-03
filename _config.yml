@@ -25,13 +25,13 @@ description: The home of Cadiboo's Programming Endeavours!
 navbar-links:
   Tutorials:
     - All Tutorials: "https://cadiboo.github.io/tutorials/"
-    - 1.12.2 Forge: "https://cadiboo.github.io/tutorials/1.12.2/"
-    - 1.13.2 Forge: "https://cadiboo.github.io/tutorials/1.13.2/"
-    - 1.14 Fabric: "https://cadiboo.github.io/tutorials/"
+    - 1.12.2: "https://cadiboo.github.io/tutorials/1.12.2/"
+    - 1.13.2: "https://cadiboo.github.io/tutorials/1.13.2/"
+    - 1.14.x: "https://cadiboo.github.io/tutorials/"
   Projects:
     - All Projects: "https://cadiboo.github.io/projects/"
     - NoCubes: "https://cadiboo.github.io/projects/nocubes/"
-    - RenderChunk rebuildChunk Hooks: "https://cadiboo.github.io/projects/render_chunk_rebuild_chunk_hooks/"
+    - RenderChunk rebuildChunk Hooks: "https://cadiboo.github.io/projects/renderchunk-rebuildchunk-hooks/"
     - WIPTech: "https://cadiboo.github.io/projects/wiptech/"
   About Me: "aboutme"
   Resources:
