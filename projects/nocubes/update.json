@@ -1,10 +1,10 @@
 {
-	"homepage": "https://cadiboo.github.io/projects/nocubes/",
+	"homepage": "https://Cadiboo.github.io/projects/nocubes/",
 	"promos": {
 		"1.13.2-latest": "1.13.2-0.2.6",
 		"1.13.2-recommended": "1.13.2-0.2.6",
-		"1.12.2-latest": "1.12.2-0.2.6",
-		"1.12.2-recommended": "1.12.2-0.2.6"
+		"1.12.2-latest": "1.12.2-0.2.7",
+		"1.12.2-recommended": "1.12.2-0.2.7"
 	},
 	"1.13.2": {
 		"1.13.2-0.2.6": "Update update.json",
@@ -12,6 +12,7 @@
 		"1.13.2-0.2.4": "Update to 1.13.2, Some features (Such as Extend Liquids) are missing"
 	},
 	"1.12.2": {
+		"1.12.2-0.2.7": "Fixed bug with CTM. Big internal changes",
 		"1.12.2-0.2.6": "Massive update. Added collisions and improved performace among many other things",
 	  	"1.12.2-0.2.5": "Update update.json",
 	  	"1.12.2-0.2.4": "Small patch to fix a crash",
