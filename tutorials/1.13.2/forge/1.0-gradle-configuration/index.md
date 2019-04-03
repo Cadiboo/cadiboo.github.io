@@ -6,7 +6,7 @@ This tutorial assumes you have
 - Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites) already
 - Downloaded the latest Forge MDK  
 
-Gradle is an extremely powerful system for building Java applications. Forge uses gradle for modding because of the many things it can do with it, such as perform the deobfuscation and other setup required to make a developer workspace.  
+Gradle is an extremely powerful system for building Java applications. Forge uses gradle for modding because of the many things it can do with it, such as perform the deobfuscation and other setup tasks required to make a developer workspace.  
 
 To start modding you will need to open up the `build.gradle` file in the root folder of your project and modify it a bit.  
 
