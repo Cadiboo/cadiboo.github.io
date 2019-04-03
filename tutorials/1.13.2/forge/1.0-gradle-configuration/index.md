@@ -19,7 +19,7 @@ First of all you need to change the version of your mod from `version = '1.0'` t
 6) You can add extra data to the end of your version, like `-pre3` or `-alpha2`.  
 ![Version](/tutorials/1.13.2/forge/1.0-gradle-configuration/version.png "Version")  
 
-Secondly replace "modid" with your mod's actual Mod Id. A Mod Id is a unique identifier for your mod. It must be between 8 and 64 characters and be made up of only **lowercase** alphanumeric letters (`a-z` and `0-9`), dashes (`-`) and underscores (`_`).
+Secondly replace `modid` with your mod's actual Mod Id. A Mod Id is a unique identifier for your mod. It must be between 8 and 64 characters and be made up of only **lowercase** alphanumeric letters (`a-z` and `0-9`), dashes (`-`) and underscores (`_`). You also need to replace `com.yourname.modid` with `mod.yourname.modid` where "yourname" is your name and "modid" is your mod's actual Mod Id.
 ![modid](/tutorials/1.13.2/forge/1.0-gradle-configuration/modid.png "modid")  
 
 Thirdly you should update your MCP mappings to the latest stable release. **This step is optional**, however it is recommended to keep your mappings as updated as possible. MCP (Mod Coder Pack) Mappings are what Forge uses to deobfuscate minecraft's code and turn it into something human-readable. These names are provided by the community and can change, so its relatively important to keep them up to date. You can find a list of mappings [here](http://export.mcpbot.bspk.rs). Simply copy the name/date of the release and put it into your `build.gradle` file in the `minecraft` block.
