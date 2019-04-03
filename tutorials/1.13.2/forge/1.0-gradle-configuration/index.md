@@ -13,7 +13,7 @@ To start modding you will need to open up the `build.gradle` file in the root fo
 First of all you need to change the version of your mod from `version = '1.0'` to `version = '1.13.2-0.1.0'`. Versioning in modding is in the format `MinecraftVersion-ModMajorVersion.ModMinorVersion.ModPatchVersion`. You can read more about versioning at [SemVer](https://semver.org). The basics are as follows  
 1) Increment the `ModMajorVersion` whenever you make incompatible changes in your mod (like removing items/blocks). Never reset it.  
 2) Increment the `ModMinorVersion` whenever you make backwards-compatible changes in your mod (like adding items/blocks). Reset it when you increment your `ModMajorVersion`.  
-3) Increment the `ModPatchVersion` whenever you make small backwards-compatible bug fix changes in your mod (like fixing a wrong texture on an item/block). Reset it when you increment your `ModMajorVersion` or your `ModMinorVersion`.  
+3) Increment the `ModPatchVersion` whenever you make small backwards-compatible bug fix changes in your mod (like fixing an incorrect texture on an item/block). Reset it when you increment your `ModMajorVersion` or your `ModMinorVersion`.  
 4) Your initial development starts at version `0.1.0` and your first public release is at version `1.0.0`.  
 5) **NEVER, *NEVER* release two different versions of your mod with the same version number.**  
 6) You can add extra data to the end of your version, like `-pre3` or `-alpha2`.  
