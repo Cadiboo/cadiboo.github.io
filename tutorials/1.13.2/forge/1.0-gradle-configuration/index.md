@@ -37,7 +37,7 @@ processResources {
 	from(sourceSets.main.resources.srcDirs) {
 		include 'META-INF/mods.toml'
 
-		// Replace version and mcversion
+		// Replace version
 		expand 'version':project.version
 	}
 
