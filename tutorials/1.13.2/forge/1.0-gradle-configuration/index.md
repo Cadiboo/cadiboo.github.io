@@ -8,7 +8,8 @@ This tutorial assumes you have
 
 Gradle is an extremely powerful system for building Java applications. Forge uses gradle for modding because of the many things it can do with it, such as perform the deobfuscation and other setup tasks required to make a developer workspace.  
 
-To start modding you will need to open up the `build.gradle` file in the root folder of your project and modify it a bit.  
+To start modding you will need to open up the `build.gradle` file in the root folder of your project and modify it a bit.
+![build.gradle](/tutorials/1.13.2/forge/1.0-gradle-configuration/build-gradle.png "build.gradle")  
 
 First of all you need to change the version of your mod from `version = '1.0'` to `version = '1.13.2-0.1.0'`. Versioning in modding is in the format `MinecraftVersion-ModMajorVersion.ModMinorVersion.ModPatchVersion`. You can read more about versioning at [SemVer](https://semver.org). The basics are as follows  
 1) Increment the `ModMajorVersion` whenever you make incompatible changes in your mod (like removing items/blocks). Never reset it.  
