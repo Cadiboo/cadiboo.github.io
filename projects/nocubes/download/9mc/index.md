@@ -6,7 +6,8 @@ image: /projects/nocubes/nocubes.png
 # Download No Cubes Mod for 1.13.2 / 1.12.2 / 1.7.10 / 1.7.2
 ![9mc](/projects/nocubes/screenshots/9mc.png "9mc")
 ## 1.12.2
-- [NoCubes 1.12.2-0.2.6](https://github.com/Cadiboo/NoCubes/releases/download/1.12.2-0.2.6/NoCubes-1.12.2-0.2.6.jar)
+- [NoCubes 1.12.2-0.2.7](https://github.com/Cadiboo/NoCubes/releases/download/1.12.2-0.2.7/NoCubes-1.12.2-0.2.7.jar)
+- [**UNSTABLE | Accurate Collisions** NoCubes 1.12.2-0.2.8-pre5](https://github.com/Cadiboo/NoCubes/releases/download/1.12.2-0.2.8-pre5/NoCubes-1.12.2-0.2.8-pre5.jar)
 - [RenderChunk rebuildChunk Hooks 1.12.2-0.3.1](https://github.com/Cadiboo/RenderChunk-rebuildChunk-Hooks/releases/download/1.12.2-0.3.1/RenderChunk-rebuildChunk-Hooks-1.12.2-0.3.1.jar) (Required by NoCubes)
 
 ## 1.13.2
