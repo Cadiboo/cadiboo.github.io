@@ -49,4 +49,5 @@ processResources {
 
 
 Finally you need to change your version in `mods.toml` at `/src/main/resources/META-INF/mods.toml`. This isn't technically related to gradle, but is required to build and run your mod. Simply change `version="${file.jarVersion}"` to `version="${version}"` in `mods.toml`. This changes the version from the version of the final mod (which doesn't exist yet, so won't work) to the current version of your mod as specified in build.gradle.
-![mods.toml](/tutorials/1.13.2/forge/1.0-gradle-configuration/toml0.png "mods.toml")![mods.toml](/tutorials/1.13.2/forge/1.0-gradle-configuration/toml1.png "mods.toml")
+![mods.toml](/tutorials/1.13.2/forge/1.0-gradle-configuration/toml0.png "mods.toml")
+![mods.toml](/tutorials/1.13.2/forge/1.0-gradle-configuration/toml1.png "mods.toml")
