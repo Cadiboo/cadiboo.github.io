@@ -25,7 +25,7 @@ Secondly replace "modid" with your mod's actual Mod Id. A Mod Id is a unique ide
 Thirdly you should update your MCP mappings to the latest stable release. **This step is optional**, however it is recommended to keep your mappings as updated as possible. MCP (Mod Coder Pack) Mappings are what Forge uses to deobfuscate minecraft's code and turn it into something human-readable. These names are provided by the community and can change, so its relatively important to keep them up to date. You can find a list of mappings [here](http://export.mcpbot.bspk.rs). Simply copy the name/date of the release and put it into your `build.gradle` file in the `minecraft` block.
 ![MCP Mappings](/tutorials/1.13.2/forge/1.0-gradle-configuration/mcp-mappings.png "MCP Mappings")  
 
-You also need to add the following block of code to your `build.gradle`. This code makes sure that variables are correctly inserted into `mods.toml` when the mod is built or run. 
+You also need to add the following block of code to your `build.gradle`. This code makes sure that variables are correctly inserted into `mods.toml` when the mod is built or run.
 ```groovy
 // Process resources on build
 processResources {
