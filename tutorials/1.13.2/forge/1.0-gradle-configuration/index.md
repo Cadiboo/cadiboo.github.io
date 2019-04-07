@@ -8,7 +8,7 @@ This tutorial assumes you have
 
 Gradle is an extremely powerful system for building Java applications. Forge uses gradle for modding because of the many things it can do with it, such as perform the deobfuscation and other setup tasks required to make a developer workspace.  
 
-To start modding you will need to open up the `build.gradle` file in the root folder of your project and modify it a bit.
+To start modding you will need to open up the `build.gradle` file in the root folder of your project and modify it a bit.  
 ![build.gradle](/tutorials/1.13.2/forge/1.0-gradle-configuration/build-gradle.png "build.gradle")  
 
 First of all you need to change the version of your mod from `version = '1.0'` to `version = '1.13.2-0.1.0'`. Versioning in modding is in the format `MinecraftVersion-ModMajorVersion.ModMinorVersion.ModPatchVersion`. You can read more about versioning at [SemVer](https://semver.org). The basics are as follows  
@@ -48,6 +48,6 @@ processResources {
 }
 ```  
 
-Finally you need to change your version in `mods.toml` at `/src/main/resources/META-INF/mods.toml`. This isn't technically related to gradle, but is required to build and run your mod. Simply change `version="${file.jarVersion}"` to `version="${version}"` in `mods.toml`. This changes the version from pointing to version of the final built mod (which doesn't exist yet, so won't work) to the current version of your mod as specified in build.gradle (which always exists).
+Finally you need to change your version in `mods.toml` at `/src/main/resources/META-INF/mods.toml`. This isn't technically related to gradle, but is required to build and run your mod. Simply change `version="${file.jarVersion}"` to `version="${version}"` in `mods.toml`. This changes the version from pointing to version of the final built mod (which doesn't exist yet, so won't work) to the current version of your mod as specified in build.gradle (which always exists).  
 ![mods.toml](/tutorials/1.13.2/forge/1.0-gradle-configuration/toml0.png "mods.toml")  
 ![mods.toml](/tutorials/1.13.2/forge/1.0-gradle-configuration/toml1.png "mods.toml")
