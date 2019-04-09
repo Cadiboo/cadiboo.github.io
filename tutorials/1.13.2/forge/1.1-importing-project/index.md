@@ -24,6 +24,7 @@ This tutorial assumes you have
 ![genIntellijRuns](/tutorials/1.13.2/forge/1.1-importing-project/genIntellijRuns.png "genIntellijRuns")  
 6) Fix run configs  
 ![Configs](/tutorials/1.13.2/forge/1.1-importing-project/configs.png "Configs")  
+![Select Run Config](/tutorials/1.13.2/forge/1.1-importing-project/select-run-config.png "Select Run Config")  
 ![Go Edit Configs](/tutorials/1.13.2/forge/1.1-importing-project/go-edit-configs.png "Go Edit Configs")  
 ![Edit Configs](/tutorials/1.13.2/forge/1.1-importing-project/edit-configs.png "Edit Configs")  
 ![Error No Module](/tutorials/1.13.2/forge/1.1-importing-project/error-no-module.png "Error No Module")  
@@ -31,7 +32,6 @@ This tutorial assumes you have
 ![Set Module](/tutorials/1.13.2/forge/1.1-importing-project/set-module.png "Set Module")  
 Save your changes
 7) Run 
-![Select Configs](/tutorials/1.13.2/forge/1.1-importing-project/select-configs.png "Select Configs")  
 ![Run Debug](/tutorials/1.13.2/forge/1.1-importing-project/run-debug.png "Run Debug")  
 ![Run](/tutorials/1.13.2/forge/1.1-importing-project/run.png "Run")  
 2 Mods loaded!  
