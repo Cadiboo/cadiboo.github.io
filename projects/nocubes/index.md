@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NoCubes
-subtitle: A mod for 1.12.2 using Forge that creates (currently) cosmetic-only curved terrain layout in Minecraft
+subtitle: A mod for 1.12.2+ using Forge that creates smooth terrain in Minecraft
 image: /projects/nocubes/nocubes.png
 ---
 ### About NoCubes
@@ -16,27 +16,27 @@ NoCubes is exceptional for a number of reasons. Firstly, it does all its modific
 At first glance the world may seem to have been drastically changed, but this strange new world actually feels quite similar once you explore it for a little bit. After traveling around your world for a while, you will realise that the vista you are inside is still the same familiar landscape you know and love. And, though the ground is smoother and the trees are round; the magical and unique way the world unfolds, generates and interacts with you hasn’t changed.
 [![Half Vanilla Half NoCubes](https://github.com/Cadiboo/Cadiboo.github.io/blob/c140aaa4b2ef9bdab0fd9fa76843bc9f2622cead/projects/nocubes/sd-images/2019-03-05_01.54.13-min.png?raw=true "Half Vanilla Half NoCubes")](https://github.com/Cadiboo/Cadiboo.github.io/blob/9253f656cf38212dae02ded4594944e88bc7b760/projects/nocubes/progress%20history/2019-03-05_01.54.13.png)
 
-The latest update to the mod features new renderers - such as OldNoCubes and SurfaceNets - to better suit individual players preferences, smooth lighting, liquid bodies that reach all the way to the shoreline, accurate collisions, rounded trees, smooth biome color transitions, enchanted multiplayer capabilities, a 61x speed upgrade, RAM optimisations, texture randomisation, increased mod compatibility and a multitude of other user-customisable options.
+The latest update to the mod features new renderers - such as OldNoCubes and SurfaceNets - to better suit individual players preferences, smooth lighting, liquid bodies that reach all the way to the shoreline, accurate collisions, rounded trees, smooth biome color transitions, enchanted multiplayer capabilities, many performance improvements and speed upgrades, RAM optimisations, texture randomisation, particle integration, leaves separation, faster lighting, texture improvement, emissive lighting support, increased mod compatibility and a multitude of other user-customisable options.
 [![Smooth Lighting](https://github.com/Cadiboo/Cadiboo.github.io/blob/c140aaa4b2ef9bdab0fd9fa76843bc9f2622cead/projects/nocubes/sd-images/2019-03-05_19.20.44-min.png?raw=true "Smooth Lighting")](https://github.com/Cadiboo/Cadiboo.github.io/blob/9253f656cf38212dae02ded4594944e88bc7b760/projects/nocubes/progress%20history/2019-03-05_19.20.44.png)[![OldNoCubes 1](https://github.com/Cadiboo/Cadiboo.github.io/blob/c140aaa4b2ef9bdab0fd9fa76843bc9f2622cead/projects/nocubes/sd-images/2019-03-05_20.04.31-min.png?raw=true "OldNoCubes 1")](https://github.com/Cadiboo/Cadiboo.github.io/blob/9253f656cf38212dae02ded4594944e88bc7b760/projects/nocubes/progress%20history/2019-03-05_20.04.31.png)[![OldNoCubes 2](https://github.com/Cadiboo/Cadiboo.github.io/blob/c140aaa4b2ef9bdab0fd9fa76843bc9f2622cead/projects/nocubes/sd-images/2019-03-11_20.26.26-min.png?raw=true "OldNoCubes 2")](https://github.com/Cadiboo/Cadiboo.github.io/blob/9253f656cf38212dae02ded4594944e88bc7b760/projects/nocubes/progress%20history/2019-03-11_20.26.26.png)[![Random Textures](https://github.com/Cadiboo/Cadiboo.github.io/blob/c140aaa4b2ef9bdab0fd9fa76843bc9f2622cead/projects/nocubes/sd-images/2019-03-06_16.39.01-min.png?raw=true "Random Textures")](https://github.com/Cadiboo/Cadiboo.github.io/blob/9253f656cf38212dae02ded4594944e88bc7b760/projects/nocubes/progress%20history/2019-03-06_16.39.01.png)
-This isn’t all that this mod has in store though, with even more mod compatibility, texture blending, performance optimisations, tree branch and trunk tweaks, placement previews, particle integration, tree separation, 3d minimaps, community configuration presets, higher resolution renders, faster lighting, more translations, texture improvement, more renderers and emissive lighting support all being worked on, and scheduled to be added in an upcoming update.
+This isn’t all that this mod has in store though, with even more mod compatibility, texture blending, even more performance optimisations, tree branch and trunk tweaks, placement previews, 3d minimaps, community configuration presets, higher resolution renders, more translations and more renderers all being worked on, and scheduled to be added in an upcoming update.
 
 Final Aim for NoCubes
 [![High-Resolution mountain picture by John Westrock](/projects/nocubes/john-westrock-1189512-unsplash.png "High-Resolution mountain picture by John Westrock")](https://unsplash.com/@johnwestrock?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge)
 
 ### [Download](/projects/nocubes/download)
-Download the mod here
+Download the mod here!
 
 ### [Discord Server](/projects/nocubes/discord)
 Get support, development updates, pre-releases and much, much more on our discord server.
 
 ### ToDo List
-- [x] Performance (Upgraded by 61x)
+- [x] Performance (Now more than 60 times faster than before)
 - [x] Smooth lighting (Works perfectly!)
 - [x] CullFacing Issues (Works with BetterFoliage!)
-- [x] Higher Accuracy Collisions (In pre-releases, the code is written but it needs optimisation)
+- [x] Higher Accuracy Collisions (In pre-releases, the code is written but it needs testing)
 
 ### Latest mod reviews
-[https://youtu.be/2A7L6dYcprs](https://youtu.be/2A7L6dYcprs)
+[https://youtu.be/2A7L6dYcprs](https://youtu.be/2A7L6dYcprs)  
 [https://youtu.be/18jRus3rEE4](https://youtu.be/18jRus3rEE4)
 
 ### Screenshots (There are much better ones in #gallery on the discord server!)
@@ -59,7 +59,7 @@ NoCubes (Marching Cubes Algorithm) on Hillside with Sildurs Vibrant Shaders, Opt
 [![NoCubes (Marching Cubes Algorithm) on Hillside with Shaders](/projects/nocubes/screenshots/marching_cubes_hillside_shaders.png "NoCubes (Marching Cubes Algorithm) on Hillside with Shaders")](/projects/nocubes/screenshots/marching_cubes_hillside_shaders.png)
 
 ### Bonus Features
-This mod includes fixes for a number of vanilla fluid rendering bugs. These fixes are enabled separately from the main mod, so you can play without smooth terrain and only the improved fluid rendering. These features include
+This mod includes optimisations and fixes for a number of vanilla fluid rendering bugs. These fixes are enabled separately from the main mod, so you can play without smooth terrain and only the improved fluid rendering. These features include
 - Smooth Fluid Lighting (Finally, why isn't this in vanilla???)
 - Smooth Fluid Biome Colour Transitions (Again, why isn't this in vanilla?)
 - Natural Fluid Textures

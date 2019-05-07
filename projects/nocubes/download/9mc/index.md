@@ -5,19 +5,18 @@ image: /projects/nocubes/nocubes.png
 ---
 # Download No Cubes Mod for 1.13.2 / 1.12.2 / 1.7.10 / 1.7.2
 ![9mc](/projects/nocubes/screenshots/9mc.png "9mc")
+## 1.13.2 (Unstable Pre-releases)
+#### GitHub (Unstable Pre-releases)
+- [NoCubes 1.13.2](https://github.com/Cadiboo/NoCubes/releases/download/1.13.2-0.2.9-pre11/NoCubes-1.13.2-0.2.9-pre11.jar)
+
 ## 1.12.2
-- [NoCubes 1.12.2-0.2.7](https://github.com/Cadiboo/NoCubes/releases/download/1.12.2-0.2.7/NoCubes-1.12.2-0.2.7.jar)
-- [**UNSTABLE \| Accurate Collisions** NoCubes 1.12.2-0.2.8-pre5](https://github.com/Cadiboo/NoCubes/releases/download/1.12.2-0.2.8-pre5/NoCubes-1.12.2-0.2.8-pre5.jar)
-- [RenderChunk rebuildChunk Hooks 1.12.2-0.3.1](https://github.com/Cadiboo/RenderChunk-rebuildChunk-Hooks/releases/download/1.12.2-0.3.1/RenderChunk-rebuildChunk-Hooks-1.12.2-0.3.1.jar) (Required by NoCubes)
+#### CurseForge (Stable)
+- [No Cubes 1.13.2](https://minecraft.curseforge.com/projects/nocubes/files)
+- [RenderChunk rebuildChunk Hooks](https://minecraft.curseforge.com/projects/renderchunk-rebuildchunk-hooks/files) (Required by NoCubes)
 
-## 1.13.2
-- [NoCubes 1.13.2-0.2.6](https://github.com/Cadiboo/NoCubes/releases/download/1.13.2-0.2.6/NoCubes-1.13.2-0.2.6.jar)
-- [RenderChunk rebuildChunk Hooks 1.13.2-0.6.2](https://github.com/Cadiboo/RenderChunk-rebuildChunk-Hooks/releases/download/1.13.2-0.6.2/RenderChunk-rebuildChunk-Hooks-1.13.2-0.6.2.jar) (Required by NoCubes)
-
-## IMPORTANT
-Don’t forget that the smooth lighting is set based on your video settings, but everything else is changed from on the mods config which can be found at Mod List > NoCubes > Config
-
-There are a bunch of cool options in the config that can make the visuals a lot better. (Beautify textures, change the rendering algorithm, extend liquids etc.)
+#### GitHub (Unstable Pre-releases)
+- [No Cubes (Unstable)](https://github.com/Cadiboo/NoCubes/releases/latest)
+- [RenderChunk rebuildChunk Hooks (Unstable)](https://github.com/Cadiboo/RenderChunk-rebuildChunk-Hooks/releases/latest) (Required by NoCubes)
 
 ## Old Versions
 - [No Cubes (1.7.2-0.3)](/projects/nocubes/download/old/No-Cubes-Mod-1.7.2-0.3.jar)
