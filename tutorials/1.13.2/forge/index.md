@@ -22,8 +22,8 @@ Open up that folder and continue to Chapter 1.
 ### Chapter 1 - Setting up the basics
 ##### [1.0 - Gradle Configuration](/tutorials/1.13.2/forge/1.0-gradle-configuration)
 ##### [1.1 - Importing the project into your IDE](/tutorials/1.13.2/forge/1.1-importing-project)
-##### [1.2 - Main Mod class](/tutorials/1.13.2/forge/1.2-main-mod-class)
-##### [1.3 - Event Subscribing](/tutorials/1.13.2/forge/1.3-event-subscribing)
+##### [1.2 - Basic Mod](/tutorials/1.13.2/forge/1.2-basic-mod)
+##### [1.3 - Doing Something](/tutorials/1.13.2/forge/1.3-doing-something)
 ##### [1.4 - First Item](/tutorials/1.13.2/forge/1.4-first-item)
 ##### [1.5 - First Block](/tutorials/1.13.2/forge/1.5-first-block)
 ##### [1.6 - First Recipe](/tutorials/1.13.2/forge/1.6-first-recipe)

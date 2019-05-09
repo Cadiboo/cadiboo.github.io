@@ -9,7 +9,7 @@ This tutorial assumes you have already
 - Read and followed [1.0 - Gradle Configuration](https://cadiboo.github.io/tutorials/1.13.2/forge/1.0-gradle-configuration/)
 - Read and followed [1.1 - Importing the project into your IDE](https://cadiboo.github.io/tutorials/1.13.2/forge/1.1-importing-project/)
 
-This tutorial will help you set up your main mod class.  
+This tutorial will help you set up your main mod class and create the most basic mod possible.  
 > Your mod's Main mod class is the class that is loaded by Forge and sets up the data structures for your mod. In current versions this class doesn't really have much functionality except for making your mod a mod, but in previous versions, especially older ones, this class handled almost everything related to Forge and being a mod.
 
 ![java](/tutorials/1.13.2/forge/1.2-basic-mod/java.png "java")  
