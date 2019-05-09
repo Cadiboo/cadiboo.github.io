@@ -32,7 +32,7 @@ You also need to change your mod group.
 Examples of Mod Groups are  
 > 1) `io.github.cadiboo.nocubes` (the website is "cadiboo.github.io" and the modid is "nocubes")  
 > 2) `io.github.krevik.kathairis` (the website is "krevik.github.io" and the modid is "kathairis")  
-> 3) `com.github.coolalias.coolmod` (the website is "github.com/coolalias" and the modid is "coolmod")
+> 3) `com.github.coolalias.coolmod` (the website is "github.com/coolalias" and the modid is "coolmod")  
 > 4) `mod.coolalias.coolmod` (there is no website, the author is "coolalias" and the modid is "coolmod")
 
 Replace `com.yourname.modid` with `mod.yournameinlowercase.modid` where "yournameinlowercase" is your name and "modid" is your mod's actual Mod Id. **"yournameinlowercase" needs to be lowercase!**  
