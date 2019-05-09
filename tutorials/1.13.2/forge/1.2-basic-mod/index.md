@@ -9,17 +9,17 @@ This tutorial assumes you have already
 - Read and followed [1.0 - Gradle Configuration](https://cadiboo.github.io/tutorials/1.13.2/forge/1.0-gradle-configuration/)
 - Read and followed [1.1 - Importing the project into your IDE](https://cadiboo.github.io/tutorials/1.13.2/forge/1.1-importing-project/)
 
-This tutorial will help you set up your main mod class and create the most basic mod possible.  
+This tutorial will help you set up your main mod class and create the most basic mod possible.
 > Your mod's Main mod class is the class that is loaded by Forge and sets up the data structures for your mod. In current versions this class doesn't really have much functionality except for making your mod a mod, but in previous versions, especially older ones, this class handled almost everything related to Forge and being a mod.
 
 ![java](/tutorials/1.13.2/forge/1.2-basic-mod/java.png "java")  
 Java Concepts (Click each concept to view the official primers by the makers of Java):  
-- Objects  
+- [Objects](https://docs.oracle.com/javase/tutorial/java/concepts/object.html)
 > Objects are things. Real world examples of Objects are your dog, your desk, your computer, your bed and your bicycle.  
 > Real-world objects share two characteristics: They all have state and behavior. Dogs have state (name, color, breed, hungry) and behavior (barking, fetching, wagging tail). Bicycles also have state (current gear, current pedal cadence, current speed) and behavior (changing gear, changing pedal cadence, applying brakes).
 > Your mod is an Object like everything else in Java and it has state (modid, author, logo) and behaviour (what it does when the game is lauched, what it does when other mods are loaded, what it does when Minecraft is fully loaded)
 
-- [Classes](https://docs.oracle.com/javase/tutorial/java/concepts/class.html)    
+- [Classes](https://docs.oracle.com/javase/tutorial/java/concepts/class.html)
 > In the real world, you'll often find many individual objects all of the same kind. There may be thousands of other bicycles in existence, all of the same make and model. Each bicycle was built from the same set of blueprints and therefore contains the same components.
 > Your mod is no different. Your main mod class is the blueprint for your mod, which will get loaded by Forge.
 
@@ -30,9 +30,11 @@ Java Concepts (Click each concept to view the official primers by the makers of 
 - [Annotations](https://docs.oracle.com/javase/tutorial/java/annotations/)
 > Annotations provide metadata about parts of a program without being part of the program itself. The `@Mod` annotation contains metadata (your modid). Forge sees this annotation on your main mod class and knows to try to find a `mods.toml` file for your mod. If it finds this file it will load your mod and create an instance of it when it is time to load mods.
 
-The first step to making your main mod class doesn't involve your mod at all. In fact the first step is to disable the example mod that comes with the Forge MDK. If you don't disable this example mod, Forge will try and load both your mod and the example mod at the same time. This is not necessarily an issue in general, but as you're going to have modified your `mods.toml` file for your mod, the example mod will not have any `mods.toml` file. This will cause the game to fail to load with the error `mods.toml missing metadata for modid examplemod`. To disable the example mod just comment out the `@Mod` annotation on the examplemod class at `com.example.examplemod.ExampleMod.java`. Commenting out this code stops Forge from discovering the example mod and knowing its a mod. Since it never discovers the example mod it won't load the it and you won't get the error from trying to load both your mod and the example mod.  
+The first step to making your main mod class doesn't involve your mod at all. In fact the first step is to disable the example mod that comes with the Forge MDK.  
+If you don't disable this example mod, Forge will try and load both your mod and the example mod at the same time. This is not necessarily an issue in general, but as you're going to have modified your `mods.toml` file for your mod, the example mod will not have any `mods.toml` file. This will cause the game to fail to load with the error `mods.toml missing metadata for modid examplemod`. To disable the example mod just comment out the `@Mod` annotation on the examplemod class at `com.example.examplemod.ExampleMod` (`/src/main/java/com/example/examplemod/ExampleMod.java`).  
+Commenting out this code stops Forge from discovering the example mod and knowing its a mod. Since it never discovers the example mod it won't load the it and you won't get the error from trying to load both your mod and the example mod.  
 ![examplemod enabled](/tutorials/1.13.2/forge/1.2-basic-mod/examplemod-enabled.png "examplemod enabled")  
-![examplemod disabled](/tutorials/1.13.2/forge/1.2-basic-mod/examplemod-disabled.png "examplemod disabled")  
+![examplemod disabled](/tutorials/1.13.2/forge/1.2-basic-mod/examplemod-disabled.png "examplemod disabled")
 > Commenting out code is the practice of marking parts of code as comments, so that they are ignored and not run. The aim of this is to temporarily disable a certain part of code.
 
 > Comments are parts of code that are ignored by your computer when it is running the code and only exist for humans to read. Comments are usually put on pieces of code to explain what that piece of code does and why that piece of code is there instead of somewhere else.
