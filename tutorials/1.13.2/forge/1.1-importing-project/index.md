@@ -4,7 +4,8 @@ title: 1.1 - Importing the project into your IDE
 ---
 This tutorial assumes you have already
 - Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites)
-- Downloaded the latest Forge MDK  
+- Downloaded the latest Forge MDK
+- Setup your mod folder as described at the top of [the main Forge 1.13.2 tutorials page](/tutorials/1.13.2/forge/)
 - Read and followed [1.0 - Gradle Configuration](https://cadiboo.github.io/tutorials/1.13.2/forge/1.0-gradle-configuration/)
 
 # IntelliJ

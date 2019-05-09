@@ -2,9 +2,10 @@
 layout: page
 title: 1.0 - Gradle Configuration
 ---
-This tutorial assumes you have
-- Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites) already
-- Downloaded the latest Forge MDK  
+This tutorial assumes you have already
+- Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites)
+- Downloaded the latest Forge MDK
+- Setup your mod folder as described at the top of [the main Forge 1.13.2 tutorials page](/tutorials/1.13.2/forge/)  
 
 Gradle is an extremely powerful system for building Java applications. Forge uses gradle for modding because of the many things it can do with it, such as perform the deobfuscation and other setup tasks required to make a developer workspace.  
 
@@ -25,13 +26,20 @@ First of all you need to change the version of your mod from `version = '1.0'` t
 Secondly replace `modid` with your mod's actual Mod Id.  
 > A Mod Id is a unique identifier for your mod. It must be between 8 and 64 characters and be made up of only **lowercase** alphanumeric letters (`a-z` and `0-9`), dashes (`-`) and underscores (`_`).
 
-You also need to Replace `com.yourname.modid` with `mod.yourname.modid` where "yourname" is your name and "modid" is your mod's actual Mod Id. **"yourname" needs to be lowercase!**  
+You also need to change your mod group.
+> A Mod Group is the same as the packaging for your mod. It is in the format `yourwebsitereversed.modid`. If you don't have a website use the format `mod.yournameinlowercase.modid`. Examples of Mod Groups are  
+> 1) `io.github.cadiboo.nocubes` (the website is "cadiboo.github.io" and the modid is "nocubes")  
+> 2) `io.github.krevik.kathairis` (the website is "krevik.github.io" and the modid is "kathairis")  
+> 3) `com.github.coolalias.coolmod` (the website is "github.com/coolalias" and the modid is "coolmod")
+> 4) `mod.coolalias.coolmod` (there is no website, the author is "coolalias" and the modid is "coolmod")
+
+Replace `com.yourname.modid` with `mod.yournameinlowercase.modid` where "yournameinlowercase" is your name and "modid" is your mod's actual Mod Id. **"yournameinlowercase" needs to be lowercase!**  
 ![modid](/tutorials/1.13.2/forge/1.0-gradle-configuration/modid.png "modid")  
 
 Thirdly you should update your MCP mappings to the latest stable release. **This step is optional**, however it is recommended to keep your mappings as updated as possible.
-> MCP (Mod Coder Pack) Mappings are what Forge uses to deobfuscate minecraft's code and turn it into something human-readable.
+> MCP (Mod Coder Pack) Mappings are what Forge uses to deobfuscate minecraft's code and turn it into something human-readable. These mapping names are provided by the community and can change, so it's relatively important to keep them up to date.
 
-These mapping names are provided by the community and can change, so it's relatively important to keep them up to date. You can find a list of mappings [here](http://export.mcpbot.bspk.rs). Simply copy the name/date of the release and put it into your `build.gradle` file in the `minecraft` block.
+You can find a list of mappings [here](http://export.mcpbot.bspk.rs). Simply copy the name/date of the release and put it into your `build.gradle` file in the `minecraft` block.
 ![MCP Mappings](/tutorials/1.13.2/forge/1.0-gradle-configuration/mcp-mappings.png "MCP Mappings")  
 
 You also need to add the following block of code to your `build.gradle`. This code makes sure that variables are correctly inserted into `mods.toml` when the mod is built or run.
