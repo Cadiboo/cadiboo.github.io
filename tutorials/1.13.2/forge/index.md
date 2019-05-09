@@ -5,14 +5,17 @@ title: Forge 1.13.2 Tutorials
 
 ## Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites) first!
 
-To start off, Download the [Forge MDK (Mod Development Kit)](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.13.2.html), unzip it to an accessible folder and rename it to the file name of your mod. I put my mods in `/Users/Cadiboo/Developer/Modding/<Mod File Name>`.  
-Your mod file name must not contain spaces. Spaces should be removed or replaced with `-`.  
-Some Examples of mod file names are 
+> Mod Name: The display name of your mod. Should contain only normal alphanumeric characters (a-z, A-Z, 0-9). Should be unique, try and be innovative, no other mod should have something similar to your mod name. If you have two mods with the same modid (which is derived from the mod name), the game will not load.
+
+To start off, Download the [Forge MDK (Mod Development Kit)](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.13.2.html), unzip it to an accessible folder and rename it to the file name of your mod. I put my mods in `/Users/Cadiboo/Developer/Modding/<Mod-File-Name>`.
+
+> Mod file name: the Mod name but replace spaces with “-“. Your mod file name should not contain spaces because maven and gradle (the build tools that Forge mods use) don’t deal well with spaces in files names. Because of this, if you use spaces in your mod file name, people won’t be able to use your mod as a library and have it automatically download
+
+Some examples of mod file names
 - NoCubes
 - JourneyMap
 - Tinkers-Construct
 - Inventory-Tweaks
-- RenderChunk-rebuildChunk-Hooks
 
 Open up that folder and continue to Chapter 1.  
 
