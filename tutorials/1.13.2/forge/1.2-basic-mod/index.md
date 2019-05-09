@@ -58,7 +58,7 @@ Examples of packaging for your mod:
 **Please note that your package needs to be lowercase!**  
 
 Next make a new Class and name it after your mod name or simply call it `Main`.
-> The name of your main mod class should be either `Main` or your Mod Name in upper camel case/Pascal case. Examples of main mod class names:  
+> The name of your main mod class should be either `Main` or your Mod Name in upper camel case/Pascal case. **Your class name can only contain alphanumberic characters (`a-Z` and `0-9`).** Examples of main mod class names:  
 > 1) `Main`  
 > 2) `NoCubes`  
 > 3) `Kathairis`  
@@ -94,4 +94,4 @@ public final class ExampleMod {
 Finally run Minecraft and you should be able to see "2 mods loaded" in the bottom left of the title screen and also be able to see your mod in the mods list.
 ![title screen](/tutorials/1.13.2/forge/1.2-basic-mod/title-screen.png "title screen")  
 ![mods list](/tutorials/1.13.2/forge/1.2-basic-mod/mods-list.png "mods list")  
-![examplemod in mods list](/tutorials/1.13.2/forge/1.2-basic-mod/examplemod-in-mods-list.png "examplemod in mods list")  
+![examplemod in mods list](/tutorials/1.13.2/forge/1.2-basic-mod/examplemod-in-mods-list.png "examplemod in mods list")
