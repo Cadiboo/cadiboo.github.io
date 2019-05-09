@@ -27,7 +27,7 @@ Secondly replace `modid` with your mod's actual Mod Id.
 > A Mod Id is a unique identifier for your mod. It must be between 8 and 64 characters and be made up of only **lowercase** alphanumeric letters (`a-z` and `0-9`), dashes (`-`) and underscores (`_`).
 
 You also need to change your mod group.
-> A Mod Group is the same as the packaging for your mod. It is in the format `yourwebsitereversed.modid`. Websites are used in packaging to avoid name collisions. Your web presence is unique so it is commonly used. If you don’t have a website, you can use your version control repository as your web presence, e.g. `com.github.username.modid`. If you don’t use version control, start using it! In the meantime you can use the packaging `mod.yournameinlowercase.modid`.  
+> A Mod Group is the same as the packaging for your mod. **It can consist of only *lowercase* alphanumeric letters (`a-z` and `0-9`).** It is in the format `yourwebsitereversed.modid`. Websites are used in packaging to avoid name collisions. Your web presence is unique so it is commonly used. If you don’t have a website, you can use your version control repository as your web presence, e.g. `com.github.username.modid`. If you don’t use version control, start using it! In the meantime you can use the packaging `mod.yournameinlowercase.modid`.  
 **The entirety of your Mod Group needs to be in lowercase!** This is because some file systems (windows) consider `iTeMs` and `items` to be the same, but every other system considers them to be different. *Trying to load non-lowercase files on different filesystems can cause massive problems and hard-to-track-down bugs!*  
 Examples of Mod Groups are  
 > 1) `io.github.cadiboo.nocubes` (the website is "cadiboo.github.io" and the modid is "nocubes")  
