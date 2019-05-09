@@ -5,7 +5,7 @@ title: Forge 1.13.2 Tutorials
 
 ## Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites) first!
 
-> Mod Name: The display name of your mod. Should contain only normal alphanumeric characters (a-z, A-Z, 0-9). Should be unique, try and be innovative, no other mod should have something similar to your mod name. If you have two mods with the same modid (which is derived from the mod name), the game will not load.
+> Your Mod Name is the display name of your mod. Should contain only normal alphanumeric characters (a-z, A-Z, 0-9). It must be unique. Try and be innovative when coming up with your Mod Name because no other mod should be named something similar to your mod. If you have two mods with the same modid (which is derived from the mod name), the game will not be able to load.
 
 To start off, Download the [Forge MDK (Mod Development Kit)](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.13.2.html), unzip it to an accessible folder and rename it to the file name of your mod. I put my mods in `/Users/Cadiboo/Developer/Modding/<Mod-File-Name>`.
 
