@@ -44,6 +44,24 @@ Thirdly you should update your MCP mappings to the latest stable release. **This
 You can find a list of mappings [here](http://export.mcpbot.bspk.rs). Simply copy the name/date of the release and put it into your `build.gradle` file in the `minecraft` block.
 ![MCP Mappings](/tutorials/1.13.2/forge/1.0-gradle-configuration/mcp-mappings.png "MCP Mappings")  
 
+Fourthly add the following code to your `build.gradle` file so that it also generates a `sources` jar when you build your mod.
+> A sources jar is a non-executable jar that contains the source code for your mod. This is useful for you if you ever loose your code and also vital to any developers who want to write mods that interact with your mod.
+
+> A Jar (`.jar`) file is a compressed file format (very similar to `.zip` files) that contains many Java classes (i.e. your mod's code) and associated resource files (such as your mod's textures and models). "Jar" is short for "Java ARchive". Jar files are usually executable or contain executable code.
+
+The code to add is
+```groovy
+task sourcesJar(type: Jar, dependsOn: classes) {
+	classifier = 'sources'
+	from sourceSets.main.allSource
+}
+build.dependsOn sourcesJar
+
+artifacts {
+	archives sourcesJar
+}
+```  
+
 You also need to add the following block of code to your `build.gradle`. This code makes sure that variables are correctly inserted into `mods.toml` when the mod is built or run.
 ```groovy
 // Process resources on build
