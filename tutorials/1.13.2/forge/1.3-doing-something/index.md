@@ -2,6 +2,14 @@
 layout: page
 title: 1.3 - Doing Something
 ---
+This tutorial assumes you have already
+- Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites)
+- Downloaded the latest Forge MDK
+- Setup your mod folder as described at the top of [the main Forge 1.13.2 tutorials page](/tutorials/1.13.2/forge/)
+- Read and followed [1.0 - Gradle Configuration](https://cadiboo.github.io/tutorials/1.13.2/forge/1.0-gradle-configuration/)
+- Read and followed [1.1 - Importing the project into your IDE](https://cadiboo.github.io/tutorials/1.13.2/forge/1.1-importing-project/)
+- Read and followed [1.2 - Basic Mod](https://cadiboo.github.io/tutorials/1.13.2/forge/1.2-basic-mod/)
+
 
 1) make a >public >no args >constructor with nothing in it  
 2) Now make a constant logger for your mod  

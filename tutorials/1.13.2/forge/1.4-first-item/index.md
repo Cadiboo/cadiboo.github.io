@@ -2,17 +2,25 @@
 layout: page
 title: 1.4 - First Item
 ---
+This tutorial assumes you have already
+- Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites)
+- Downloaded the latest Forge MDK
+- Setup your mod folder as described at the top of [the main Forge 1.13.2 tutorials page](/tutorials/1.13.2/forge/)
+- Read and followed [1.0 - Gradle Configuration](https://cadiboo.github.io/tutorials/1.13.2/forge/1.0-gradle-configuration/)
+- Read and followed [1.1 - Importing the project into your IDE](https://cadiboo.github.io/tutorials/1.13.2/forge/1.1-importing-project/)
+- Read and followed [1.2 - Basic Mod](https://cadiboo.github.io/tutorials/1.13.2/forge/1.2-basic-mod/)
+- Read and followed [1.3 - Doing Something](https://cadiboo.github.io/tutorials/1.13.2/forge/1.3-doing-something/)
 
+You're finally ready to add your first item to the game!
 
-
-![Why isn't my Event Subscriber Working](/tutorials/1.13.2/forge/eventsubscriber.png "Why isn't my Event Subscriber Working")
+![Why isn't my Event Subscriber Working](/tutorials/1.13.2/forge/1.4-first-item/eventsubscriber.png "Why isn't my Event Subscriber Working")
 
 1) Make a new class called "ModEventSubscriber" in the same package as your main mod class (`mod.yourname.modpackagename`)
 2) >Annotate it with >`@EventBusSubscriber` (and import `EventBusSubscriber` from `net.minecraftforge.fml.common.Mod`)  
 3) add the parameter >"modid = MainModClass.MOD_ID"  
 4) add the parameter >"bus = MOD" (`import static net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus.MOD`)  
 
-5) final shit should look like
+5) final class should look like
 ```java
 
 import static net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus.MOD;
