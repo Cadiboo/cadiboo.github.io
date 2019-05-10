@@ -1,14 +1,17 @@
 ---
 layout: page
 title: Modding Tutorials
-subtitle: 1.12.2, 1.13.2
 ---
 
 # Tutorials
 ## Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites) first!
-### Forge
-- [1.12.2](https://cadiboo.github.io/tutorials/1.12.2/)
-- [1.13.2](https://cadiboo.github.io/tutorials/1.13.2/)
 
-### Fabric
-- I haven't started them yet. Find Fabric info at [https://fabricmc.net](https://fabricmc.net) and [https://fabricmc.net/wiki/setup](https://fabricmc.net/wiki/setup)
+### [1.14](https://cadiboo.github.io/tutorials/1.14/)
+- [Forge](https://cadiboo.github.io/tutorials/1.14/forge/)(Forge is not out for 1.14 yet)
+- Fabric: I haven't started them yet. Find Fabric info at [https://fabricmc.net](https://fabricmc.net) and [https://fabricmc.net/wiki/setup](https://fabricmc.net/wiki/setup)
+
+### [1.13.2](https://cadiboo.github.io/tutorials/1.13.2/)
+- [Forge](https://cadiboo.github.io/tutorials/1.13.2/forge/)
+
+### [1.12.2](https://cadiboo.github.io/tutorials/1.12.2/)
+- [Forge](https://cadiboo.github.io/tutorials/1.12.2/)
