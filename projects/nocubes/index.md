@@ -34,6 +34,7 @@ Get support, development updates, pre-releases and much, much more on our discor
 - [x] Smooth lighting (Works perfectly!)
 - [x] CullFacing Issues (Works with BetterFoliage!)
 - [x] Higher Accuracy Collisions (In pre-releases, the code is written but it needs testing)
+- [x] Fluid Fixes - Swimming through terrain (In pre-releases, needs testing)
 
 ### Latest mod reviews
 [https://youtu.be/2A7L6dYcprs](https://youtu.be/2A7L6dYcprs)  
