@@ -4,6 +4,7 @@ title: NoCubes
 subtitle: A mod for 1.12.2+ using Forge that creates smooth terrain in Minecraft
 image: /projects/nocubes/nocubes.png
 ---
+![Realistic](/projects/nocubes/sd-images/realistic.png "Realistic")  
 ### About NoCubes
 No Cubes is a completely unique mod that aims to add an exceptional twist to normal Minecraft gameplay and is the first mod in Minecraft history to fully transform and improve Minecraft’s terrain. NoCubes drastically transforms Minecraft’s traditional blocky terrain into smooth, rolling landscapes complete with circular caves, flowing mountain ranges and jaw-droppingly realistic scenery while leaving your painstakingly curated buildings untouched.
 [![Vanilla](https://github.com/Cadiboo/Cadiboo.github.io/blob/c140aaa4b2ef9bdab0fd9fa76843bc9f2622cead/projects/nocubes/sd-images/2019-03-11_20.21.14-min.png?raw=true "Vanilla")](https://github.com/Cadiboo/Cadiboo.github.io/blob/9253f656cf38212dae02ded4594944e88bc7b760/projects/nocubes/progress%20history/2019-03-11_20.21.14.png)[![NoCubes](https://github.com/Cadiboo/Cadiboo.github.io/blob/c140aaa4b2ef9bdab0fd9fa76843bc9f2622cead/projects/nocubes/sd-images/2019-03-11_20.17.52-min.png?raw=true "NoCubes")](https://github.com/Cadiboo/Cadiboo.github.io/blob/9253f656cf38212dae02ded4594944e88bc7b760/projects/nocubes/progress%20history/2019-03-11_20.17.52.png)
