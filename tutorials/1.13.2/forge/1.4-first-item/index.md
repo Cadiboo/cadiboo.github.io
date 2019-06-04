@@ -11,6 +11,8 @@ This tutorial assumes you have already
 - Read and followed [1.2 - Basic Mod](https://cadiboo.github.io/tutorials/1.13.2/forge/1.2-basic-mod/)
 - Read and followed [1.3 - Doing Something](https://cadiboo.github.io/tutorials/1.13.2/forge/1.3-doing-something/)
 
+# This tutorial isn't finished yet. However you can always look at the code in [my ExampleMod](https://github.com/Cadiboo/Example-Mod/), where I write and perfect the stuff I teach in these tutorials. Item registration and creation is [here](https://github.com/Cadiboo/Example-Mod/blob/f7493385a1d6e4b41fabb1f75e4ff942208ca97a/src/main/java/io/github/cadiboo/examplemod/ModEventSubscriber.java#L38)
+
 You're finally ready to add your first item to the game!
 
 ![Why isn't my Event Subscriber Working](/tutorials/1.13.2/forge/1.4-first-item/eventsubscriber.png "Why isn't my Event Subscriber Working")

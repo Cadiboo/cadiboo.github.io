@@ -10,6 +10,7 @@ This tutorial assumes you have already
 - Read and followed [1.1 - Importing the project into your IDE](https://cadiboo.github.io/tutorials/1.13.2/forge/1.1-importing-project/)
 - Read and followed [1.2 - Basic Mod](https://cadiboo.github.io/tutorials/1.13.2/forge/1.2-basic-mod/)
 
+# This tutorial isn't finished yet. However you can always look at the code in [my ExampleMod](https://github.com/Cadiboo/Example-Mod/), where I write and perfect the stuff I teach in these tutorials. My main mod class is [here](https://github.com/Cadiboo/Example-Mod/blob/f7493385a1d6e4b41fabb1f75e4ff942208ca97a/src/main/java/io/github/cadiboo/examplemod/ExampleMod.java)
 
 1) make a >public >no args >constructor with nothing in it  
 2) Now make a constant logger for your mod  
