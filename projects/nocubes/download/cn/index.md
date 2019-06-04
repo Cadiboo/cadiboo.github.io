@@ -4,7 +4,7 @@ title: 下载 NoCubes
 image: /projects/nocubes/nocubes.png
 ---
 # 下载1.13.2 / 1.12.2 / 1.7.10 / 1.7.2版本的NoCubes模组
-![9mc](/projects/nocubes/screenshots/9mc.png "9mc")
+![Cave](/projects/nocubes/sd-images/2019-03-05_19.20.44-min.png "Cave")
 
 ## 1.13.2 (预发布测试版)
 #### CurseForge (稳定版)
