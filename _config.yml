@@ -25,6 +25,8 @@ description: The home of Cadiboo's Programming Endeavours!
 navbar-links:
   Tutorials:
     - All Tutorials: "https://cadiboo.github.io/tutorials/"
+    - 1.14.3: "https://cadiboo.github.io/tutorials/1.14.3/"
+    - Forge 1.14.3: "https://cadiboo.github.io/tutorials/1.14.3/forge/"
     - 1.14.2: "https://cadiboo.github.io/tutorials/1.14.2/"
     - Forge 1.14.2: "https://cadiboo.github.io/tutorials/1.14.2/forge/"
     - Fabric 1.14.2: "https://cadiboo.github.io/tutorials/"
