@@ -3,22 +3,24 @@ layout: page
 title: 下载 NoCubes
 image: /projects/nocubes/nocubes.png
 ---
-# 下载1.13.2 / 1.12.2 / 1.7.10 / 1.7.2版本的NoCubes模组
-![Realistic](/projects/nocubes/sd-images/realistic.png "Realistic")
+# 下载1.14.3 / 1.14.2 / 1.13.2 / 1.12.2 / 1.7.10 / 1.7.2版本的NoCubes模组
+![切实](/projects/nocubes/sd-images/realistic.png "切实")
 
-## 1.13.2 (预发布测试版)
-#### CurseForge (稳定版)
-- [NoCubes 1.13.2](https://minecraft.curseforge.com/projects/nocubes/files)
+## 1.14.3 (在发展 - 不稳定)
+- [CurseForge](https://minecraft.curseforge.com/projects/nocubes/files)
+- [GitHub](https://github.com/Cadiboo/NoCubes/releases/download/1.14.3-0.3.0-pre1/NoCubes-1.14.3-0.3.0-pre1.jar)
 
-#### GitHub (预发布测试版)
-- [NoCubes 1.13.2](https://github.com/Cadiboo/NoCubes/releases/download/1.13.2-0.2.11/NoCubes-1.13.2-0.2.11.jar)
+## 1.14.2 (在发展 - 不稳定)
+- [CurseForge](https://minecraft.curseforge.com/projects/nocubes/files)
+- [GitHub](https://github.com/Cadiboo/NoCubes/releases/download/1.14.2-0.3.0-pre1/NoCubes-1.14.2-0.3.0-pre1.jar)
 
-## 1.12.2
-#### CurseForge (稳定版)
-- [NoCubes 1.12.2](https://minecraft.curseforge.com/projects/nocubes/files)
+## 1.13.2 (完全释放 - 稳定)
+- [CurseForge](https://minecraft.curseforge.com/projects/nocubes/files)
+- [GitHub](https://github.com/Cadiboo/NoCubes/releases/download/1.13.2-0.3.0/NoCubes-1.13.2-0.3.0.jar)
 
-#### GitHub (预发布测试版)
-- [NoCubes 1.12.2](https://github.com/Cadiboo/NoCubes/releases/download/1.12.2-0.2.11/NoCubes-1.12.2-0.2.11.jar)
+## 1.12.2 (完全释放 - 稳定)
+- [CurseForge](https://minecraft.curseforge.com/projects/nocubes/files)
+- [GitHub](https://github.com/Cadiboo/NoCubes/releases/download/1.12.2-0.3.1/NoCubes-1.12.2-0.3.1.jar)
 
 ## 历史版本
 - [NoCubes (1.7.2-0.3)](/projects/nocubes/download/old/No-Cubes-Mod-1.7.2-0.3.jar)
