@@ -6,9 +6,9 @@ image: /projects/nocubes/nocubes.png
 # Download NoCubes Mod for 1.14.3 / 1.14.2 / 1.13.2 / 1.12.2 / 1.7.10 / 1.7.2
 ![9mc](/projects/nocubes/screenshots/9mc.png "9mc")
 
-## 1.14.3 (In development - Unstable)
+## 1.14.3 (In development - Stable)
 - [CurseForge](https://minecraft.curseforge.com/projects/nocubes/files)
-- [GitHub](https://github.com/Cadiboo/NoCubes/releases/download/1.14.3-0.3.0-pre1/NoCubes-1.14.3-0.3.0-pre1.jar)
+- [GitHub](https://github.com/Cadiboo/NoCubes/releases/download/1.14.3-0.3.0-pre3/NoCubes-1.14.3-0.3.0-pre3.jar)
 
 ## 1.14.2 (In development - Unstable)
 - [CurseForge](https://minecraft.curseforge.com/projects/nocubes/files)
