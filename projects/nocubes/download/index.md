@@ -8,7 +8,7 @@ image: /projects/nocubes/nocubes.png
 
 ## 1.14.3 (In development - Stable)
 - [CurseForge](https://minecraft.curseforge.com/projects/nocubes/files)
-- [GitHub](https://github.com/Cadiboo/NoCubes/releases/download/1.14.3-0.3.0-pre3/NoCubes-1.14.3-0.3.0-pre3.jar)
+- [GitHub](https://github.com/Cadiboo/NoCubes/releases/download/1.14.3-0.3.0-pre4/NoCubes-1.14.3-0.3.0-pre4.jar)
 
 ## 1.14.2 (In development - Unstable)
 - [CurseForge](https://minecraft.curseforge.com/projects/nocubes/files)
@@ -20,7 +20,7 @@ image: /projects/nocubes/nocubes.png
 
 ## 1.12.2 (Full release - Stable)
 - [CurseForge](https://minecraft.curseforge.com/projects/nocubes/files)
-- [GitHub](https://github.com/Cadiboo/NoCubes/releases/download/1.12.2-0.3.1/NoCubes-1.12.2-0.3.1.jar)
+- [GitHub](https://github.com/Cadiboo/NoCubes/releases/download/1.12.2-0.3.2/NoCubes-1.12.2-0.3.2.jar)
 
 ## Old Versions
 - [NoCubes (1.7.2-0.3)](/projects/nocubes/download/old/No-Cubes-Mod-1.7.2-0.3.jar)
