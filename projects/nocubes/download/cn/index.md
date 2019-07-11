@@ -8,7 +8,7 @@ image: /projects/nocubes/nocubes.png
 
 ## 1.14.3 (在发展 - 稳定)
 - [CurseForge](https://minecraft.curseforge.com/projects/nocubes/files)
-- [GitHub](https://github.com/Cadiboo/NoCubes/releases/download/1.14.3-0.3.0-pre4/NoCubes-1.14.3-0.3.0-pre4.jar)
+- [GitHub](https://github.com/Cadiboo/NoCubes/releases/download/1.14.3-0.3.0-pre5/NoCubes-1.14.3-0.3.0-pre5.jar)
 
 ## 1.14.2 (在发展 - 不稳定)
 - [CurseForge](https://minecraft.curseforge.com/projects/nocubes/files)
