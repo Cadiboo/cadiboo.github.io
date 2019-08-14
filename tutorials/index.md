@@ -6,6 +6,9 @@ title: Modding Tutorials
 # Tutorials
 ## Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites) first!
 
+### [1.14.4](https://cadiboo.github.io/tutorials/1.14.4/)
+- [Forge](https://cadiboo.github.io/tutorials/1.14.4/forge/)
+
 ### [1.14.3](https://cadiboo.github.io/tutorials/1.14.3/)
 - [Forge](https://cadiboo.github.io/tutorials/1.14.3/forge/)
 
