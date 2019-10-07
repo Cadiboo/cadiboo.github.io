@@ -8,6 +8,8 @@ This tutorial assumes you have already
 - Setup your mod folder as described at the top of [the main Forge 1.14.4 tutorials page](/tutorials/1.14.4/forge/)
 - Read and followed [1.0 - Gradle Configuration](https://cadiboo.github.io/tutorials/1.14.4/forge/1.0-gradle-configuration/)
 
+# [Eclipse](./eclipse/)
+
 # IntelliJ
 1) Open build.gradle as a Project  
 ![Import](/tutorials/1.14.4/forge/1.1-importing-project/import.png "Import")  
