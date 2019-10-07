@@ -31,8 +31,8 @@ This tutorial assumes you have already
 ![Error No Module](/tutorials/1.14.2/forge/1.1-importing-project/error-no-module.png "Error No Module")  
 ![Module](/tutorials/1.14.2/forge/1.1-importing-project/module.png "Module")  
 ![Set Module](/tutorials/1.14.2/forge/1.1-importing-project/set-module.png "Set Module")  
-Save your changes
-7) Run 
+Save your changes  
+7) Run  
 ![Run Debug](/tutorials/1.14.2/forge/1.1-importing-project/run-debug.png "Run Debug")  
 ![Run](/tutorials/1.14.2/forge/1.1-importing-project/run.png "Run")  
 2 Mods loaded!  
