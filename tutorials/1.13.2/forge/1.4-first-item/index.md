@@ -19,7 +19,7 @@ You're finally ready to add your first item to the game!
 
 1) Make a new class called "ModEventSubscriber" in the same package as your main mod class (`mod.yourname.modpackagename`)
 2) >Annotate it with >`@EventBusSubscriber` (and import `EventBusSubscriber` from `net.minecraftforge.fml.common.Mod`)  
-3) add the parameter >"modid = MainModClass.MOD_ID"  
+3) add the parameter >"modid = MainModClass.MODID"  
 4) add the parameter >"bus = MOD" (`import static net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus.MOD`)  
 
 5) final class should look like
@@ -27,7 +27,7 @@ You're finally ready to add your first item to the game!
 
 import static net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus.MOD;
 
-@EventBusSubscriber(modid = Purrgatory.MOD_ID, bus = MOD)
+@EventBusSubscriber(modid = Purrgatory.MODID, bus = MOD)
 public final class ModEventSubscriber {
 
 }
@@ -42,7 +42,7 @@ For Forge to be able to do this (and for registry replacements to work properly)
 The 2 setup methods that we create will work perfectly for all our items/blocks/entities. These two methods *correctly* set the proper registry name for our entries. Add these two methods to the bottom of your ModEventSubscriber class.
 ```java
 	public static <T extends IForgeRegistryEntry<T>> T setup(final T entry, final String name) {
-		return setup(entry, new ResourceLocation(ExampleMod.MOD_ID, name));
+		return setup(entry, new ResourceLocation(ExampleMod.MODID, name));
 	}
 
 	public static <T extends IForgeRegistryEntry<T>> T setup(final T entry, final ResourceLocation registryName) {

@@ -68,7 +68,7 @@ Next make a new Class and name it after your mod name or simply call it `Main`.
 > 5) `TinkersConstruct`  
 > 6) `BetterFoliage`
 
-In your new class, create a constant `String` called `MOD_ID` and make its value be your modid.
+In your new class, create a constant `String` called `MODID` and make its value be your modid.
 > A constant in Java is a `public static final` field
 
 > A `String` is a sequence of characters. A `String` is surrounded by quotation marks (`"`). An example of a `String` is `"Hello World!"` or `"Welcome to Modding!"`.
