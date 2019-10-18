@@ -3,7 +3,7 @@ layout: page
 title: Forge 1.14.4 Tutorials
 ---
 
-## Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites) first!
+## Read the [Pre-requisites](/tutorials/Pre-requisites) first!
 
 > Your Mod Name is the display name of your mod. Should contain only normal alphanumeric characters (a-z, A-Z, 0-9). It must be unique. Try and be innovative when coming up with your Mod Name because no other mod should be named something similar to your mod. If you have two mods with the same modid (which is derived from the mod name), the game will not be able to load.
 
@@ -20,13 +20,14 @@ Some examples of mod file names
 Open up that folder and continue to Chapter 1.  
 
 ### Chapter 1 - Setting up the basics
-##### [1.0 - Gradle Configuration](/tutorials/1.14.4/forge/1.0-gradle-configuration)
-##### [1.1 - Importing the project into your IDE](/tutorials/1.14.4/forge/1.1-importing-project)
-##### [1.2 - Basic Mod](/tutorials/1.14.4/forge/1.2-basic-mod)
-##### [1.3 - Doing Something](/tutorials/1.14.4/forge/1.3-doing-something)
-##### [1.4 - First Item](/tutorials/1.14.4/forge/1.4-first-item)
-##### [1.5 - First Block](/tutorials/1.14.4/forge/1.5-first-block)
-##### [1.6 - First Recipe](/tutorials/1.14.4/forge/1.6-first-recipe)
+##### [1.0 - Gradle Configuration](/1.0-gradle-configuration)
+##### [1.1 - Importing the project into your IDE](/1.1-importing-project)
+##### [1.2 - Basic Mod](/1.2-basic-mod)
+##### [1.3 - Doing Something](/1.3-doing-something)
+##### [[Info] Proxies](/proxies)
+##### [1.4 - First Item](/1.4-first-item)
+##### [1.5 - First Block](/1.5-first-block)
+##### [1.6 - First Recipe](/1.6-first-recipe)
 
 ### Chapter 2 - Version Control (Optional)
-##### [2.0 - Making a GitHub Account](/tutorials/1.14.4/forge/2.0-github-account)
+##### [2.0 - Making a GitHub Account](/2.0-github-account)
