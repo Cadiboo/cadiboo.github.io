@@ -3,13 +3,14 @@ layout: page
 title: 1.4 - First Item
 ---
 This tutorial assumes you have already
-- Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites)
+- Read the [Pre-requisites](/tutorials/Pre-requisites)
 - Downloaded the latest Forge MDK
 - Setup your mod folder as described at the top of [the main Forge 1.14.4 tutorials page](/tutorials/1.14.4/forge/)
-- Read and followed [1.0 - Gradle Configuration](https://cadiboo.github.io/tutorials/1.14.4/forge/1.0-gradle-configuration/)
-- Read and followed [1.1 - Importing the project into your IDE](https://cadiboo.github.io/tutorials/1.14.4/forge/1.1-importing-project/)
-- Read and followed [1.2 - Basic Mod](https://cadiboo.github.io/tutorials/1.14.4/forge/1.2-basic-mod/)
-- Read and followed [1.3 - Doing Something](https://cadiboo.github.io/tutorials/1.14.4/forge/1.3-doing-something/)
+- Read and followed [1.0 - Gradle Configuration](../1.0-gradle-configuration/)
+- Read and followed [1.1 - Importing the project into your IDE](../1.1-importing-project/)
+- Read and followed [1.2 - Basic Mod](../1.2-basic-mod/)
+- Read and followed [1.3 - Doing Something](../1.3-doing-something/)
+- Read [[Info] Proxies](../proxies)
 
 You're finally ready to add your first item to the game!
 
