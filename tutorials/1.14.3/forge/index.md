@@ -3,7 +3,7 @@ layout: page
 title: Forge 1.14.3 Tutorials
 ---
 
-## Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites) first!
+## Read the [Pre-requisites](/tutorials/Pre-requisites) first!
 
 > Your Mod Name is the display name of your mod. Should contain only normal alphanumeric characters (a-z, A-Z, 0-9). It must be unique. Try and be innovative when coming up with your Mod Name because no other mod should be named something similar to your mod. If you have two mods with the same modid (which is derived from the mod name), the game will not be able to load.
 

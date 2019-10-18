@@ -25,4 +25,4 @@ If you still want to use Eclipse, you can download it from [here](https://www.ec
 It is also possible to use Visual Studio to write mods, but this will not be touched on in these tutorials.
 
 # Step 4 - Follow the Tutorial
-Follow the appropriate setup tutorial from [here](https://cadiboo.github.io/tutorials/)
+Follow the appropriate setup tutorial from [here](/tutorials/)

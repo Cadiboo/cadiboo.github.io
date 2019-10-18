@@ -3,7 +3,7 @@ layout: page
 title: 1.0 - Gradle Configuration
 ---
 This tutorial assumes you have already
-- Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites)
+- Read the [Pre-requisites](/tutorials/Pre-requisites)
 - Downloaded the latest Forge MDK
 - Setup your mod folder as described at the top of [the main Forge 1.14.3 tutorials page](/tutorials/1.14.3/forge/)  
 

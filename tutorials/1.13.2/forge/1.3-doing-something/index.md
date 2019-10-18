@@ -3,12 +3,12 @@ layout: page
 title: 1.3 - Doing Something
 ---
 This tutorial assumes you have already
-- Read the [Pre-requisites](https://cadiboo.github.io/tutorials/Pre-requisites)
+- Read the [Pre-requisites](/tutorials/Pre-requisites)
 - Downloaded the latest Forge MDK
 - Setup your mod folder as described at the top of [the main Forge 1.13.2 tutorials page](/tutorials/1.13.2/forge/)
-- Read and followed [1.0 - Gradle Configuration](https://cadiboo.github.io/tutorials/1.13.2/forge/1.0-gradle-configuration/)
-- Read and followed [1.1 - Importing the project into your IDE](https://cadiboo.github.io/tutorials/1.13.2/forge/1.1-importing-project/)
-- Read and followed [1.2 - Basic Mod](https://cadiboo.github.io/tutorials/1.13.2/forge/1.2-basic-mod/)
+- Read and followed [1.0 - Gradle Configuration](/tutorials/1.13.2/forge/1.0-gradle-configuration/)
+- Read and followed [1.1 - Importing the project into your IDE](/tutorials/1.13.2/forge/1.1-importing-project/)
+- Read and followed [1.2 - Basic Mod](/tutorials/1.13.2/forge/1.2-basic-mod/)
 
 # This tutorial isn't finished yet. However you can always look at the code in [my ExampleMod](https://github.com/Cadiboo/Example-Mod/), where I write and perfect the stuff I teach in these tutorials. My main mod class is [here](https://github.com/Cadiboo/Example-Mod/blob/f7493385a1d6e4b41fabb1f75e4ff942208ca97a/src/main/java/io/github/cadiboo/examplemod/ExampleMod.java)
 
