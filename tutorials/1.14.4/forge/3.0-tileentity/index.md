@@ -1,0 +1,1 @@
+Override `hasTileEntity(IBlockState)` and `createTileEntity(IBlockState)` in your `Block`, have a class that extends `TileEntity` (and implements `ITickableTileEntity`) and register your `TileEntityType` in the registry event

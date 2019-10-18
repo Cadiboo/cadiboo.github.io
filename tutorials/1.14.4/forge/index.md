@@ -35,4 +35,13 @@ Open up that folder and continue to Chapter 1.
 ##### [1.12 - Advanced Model](./1.12-advanced-model) (WIP)
 
 ### Chapter 2 - Version Control (Optional)
-##### [2.0 - Making a GitHub Account](./2.0-github-account)
+##### [2.0 - Making a GitHub Account](./2.0-github-account) (WIP)
+##### [2.1 - Downloading a Git Client](./2.1-download-git-client) (WIP)
+##### [2.2 - Uploading your mod](./2.2-upload-mod) (WIP)
+##### [2.3 - Commits](./2.3-commits) (WIP)
+##### [2.4 - Branches](./2.4-branches) (WIP)
+
+### Chapter 3 - More advanced modding
+##### [3.0 - TileEntity](./3.0-tileentity) (WIP)
+##### [3.1 - Block with BlockStates](./3.1-block-with-blockstates) (WIP)
+##### [3.2 - Entity](./3.2-entity) (WIP)
