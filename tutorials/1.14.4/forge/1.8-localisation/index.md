@@ -14,3 +14,5 @@ This tutorial assumes you have already
 - Read and followed [1.5 - First Item](../1.5-first-item/)
 - Read and followed [1.6 - Item Model](../1.6-item-model/)
 - Read and followed [1.7 - ItemGroup](../1.7-itemgroup/)
+
+`en_us.json`

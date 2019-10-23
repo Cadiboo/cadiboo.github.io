@@ -11,21 +11,21 @@ This tutorial assumes you have already
 # [Eclipse](./eclipse/)
 
 # IntelliJ
-1) Open build.gradle as a Project  
+1. Open build.gradle as a Project  
 ![Import](/tutorials/1.14.4/forge/1.1-importing-project/import.png "Import")  
 ![Import File](/tutorials/1.14.4/forge/1.1-importing-project/import-file.png "Import File")  
-2) Use default settings  
+2. Use default settings  
 ![Import Project](/tutorials/1.14.4/forge/1.1-importing-project/import-project.png "Import Project")  
-3) Wait for build sync to download everything and finish  
+3. Wait for build sync to download everything and finish  
 ![Sync View 0](/tutorials/1.14.4/forge/1.1-importing-project/sync-view-0.png "Sync View 0")  
 ![Sync View 1](/tutorials/1.14.4/forge/1.1-importing-project/sync-view-1.png "Sync View 1")  
 ![Sync Download](/tutorials/1.14.4/forge/1.1-importing-project/sync-download.png "Sync Download")  
-4) Refresh gradle project  
+4. Refresh gradle project  
 ![Gradle Tab](/tutorials/1.14.4/forge/1.1-importing-project/gradle-tab.png "Gradle Tab")  
 ![Gradle Refresh](/tutorials/1.14.4/forge/1.1-importing-project/gradle-refresh.png "Gradle Refresh")  
-5) Run `genIntellijRuns`  
+5. Run `genIntellijRuns`  
 ![genIntellijRuns](/tutorials/1.14.4/forge/1.1-importing-project/genIntellijRuns.png "genIntellijRuns")  
-6) Fix run configs  
+6. Fix run configs  
 ![Configs](/tutorials/1.14.4/forge/1.1-importing-project/configs.png "Configs")  
 ![Select Run Config](/tutorials/1.14.4/forge/1.1-importing-project/select-run-config.png "Select Run Config")  
 ![Go Edit Configs](/tutorials/1.14.4/forge/1.1-importing-project/go-edit-configs.png "Go Edit Configs")  
@@ -34,7 +34,7 @@ This tutorial assumes you have already
 ![Module](/tutorials/1.14.4/forge/1.1-importing-project/module.png "Module")  
 ![Set Module](/tutorials/1.14.4/forge/1.1-importing-project/set-module.png "Set Module")  
 Save your changes  
-7) Run  
+7. Run  
 ![Run Debug](/tutorials/1.14.4/forge/1.1-importing-project/run-debug.png "Run Debug")  
 ![Run](/tutorials/1.14.4/forge/1.1-importing-project/run.png "Run")  
 2 Mods loaded!  

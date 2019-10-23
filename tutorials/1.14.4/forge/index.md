@@ -5,11 +5,13 @@ title: Forge 1.14.4 Tutorials
 
 ## Read the [Pre-requisites](/tutorials/Pre-requisites) first!
 
+> Mod Name  
 > Your Mod Name is the display name of your mod. Should contain only normal alphanumeric characters (a-z, A-Z, 0-9). It must be unique. Try and be innovative when coming up with your Mod Name because no other mod should be named something similar to your mod. If you have two mods with the same modid (which is derived from the mod name), the game will not be able to load.
 
 To start off, Download the [Forge MDK (Mod Development Kit)](https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.14.4.html), unzip it to an accessible folder and rename it to the file name of your mod. I put my mods in `/Users/Cadiboo/Developer/Modding/<Mod-File-Name>`.
 
-> Mod file name: the Mod name but replace spaces with “-“. Your mod file name should not contain spaces because maven and gradle (the build tools that Forge mods use) don’t deal well with spaces in files names. Because of this, if you use spaces in your mod file name, people won’t be able to use your mod as a library and have it automatically download
+> Mod File Name  
+> Your Mod File Name should be the Mod Name but replace spaces with "-". Your mod file name should not contain spaces because maven and gradle (the build tools that Forge mods use) don’t deal well with spaces in files names. Because of this, if you use spaces in your mod file name, people won’t be able to use your mod as a library and have it automatically download
 
 Some examples of mod file names
 - NoCubes
