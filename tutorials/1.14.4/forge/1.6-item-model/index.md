@@ -13,7 +13,30 @@ This tutorial assumes you have already
 - Read and followed [1.4 - Proxies](../1.4-proxies/)
 - Read and followed [1.5 - First Item](../1.5-first-item/)
 
-1) TODO: Check logs for missing model errors
-2) TODO: FileNotFound -> No model
-3) TODO: Make model
-4) TODO: Download basic texture
+Our item currently doesn't have a model. This is evidenced by its having the missing model when you look at it in-game and there being a `FileNotFoundException` error in your logs.  
+Your logs will contain something very similar to
+```
+[minecraft/ModelBakery]: Unable to load model: 'examplemod:example_item#inventory' referenced from: examplemod:example_item#inventory: {}
+[minecraft/ModelBakery]: java.io.FileNotFoundException: examplemod:models/item/example_item.json
+```
+This tells us that the game tried to find our model at `models/item/example_item.json` but couldn't find it.  
+We are going to fix this and add a model and texture for our Item.  
+1) Make a file called "example_item.json" in `src/main/resources/assets/examplemod/models/item/`. 
+> A resource is data (images, audio, text, and so on) inside a program that is used by that program. Mods contains resources including images, `obj` or `b3d` (advanced model) files and `json` files (like recipes, `json` models, blockstate json files and localisation files). [Read more](https://docs.oracle.com/javase/8/docs/technotes/guides/lang/resources.html#overview)  
+> Item models are a type of json file. [Read more](https://minecraft.gamepedia.com/Model#Item_models)  
+
+2) Inside the new `example_item.json` file paste
+```json
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "examplemod:item/example_item"
+	}
+}
+```
+> The `"parent"` of `"item/generated"` means that this model is an item and uses the normal flat model. The texture `"examplemod:item/example_item"` of `"layer0"` in the `"textures"` tag makes the model's texture be our example item's texture (which we haven't created yet). The texture `"layer0"` is defined in the model `"item/generated"` so it will be rendered. [Read more](https://minecraft.gamepedia.com/Model#Simple_example:_2D_beds)  
+
+3) Download [this texture]() and put it at `src/main/resources/assets/examplemod/textures/item/` with the name "example_item.png"  
+> **Important**: Texture files ***must*** be `.png` files
+
+Your item should now have a model and a texture. If anything goes wrong, check your logs, they're usually very descriptive.
