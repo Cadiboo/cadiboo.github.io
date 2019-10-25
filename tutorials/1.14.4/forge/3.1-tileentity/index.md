@@ -14,7 +14,7 @@ Making an Infuser `TileEntity`
 
 1. Create a class called "ModTileEntityTypes" in your `init` package (`mod.yourname.modpackagename.init`)
 2. Annotate `ModTileEntityTypes` with `@ObjectHolder(ExampleMod.MODID)`
-3. Add a constant `TileEntityType<?>` called "INFUSER" with a value of `null`.
+3. Add a constant `TileEntityType<?>` called "INFUSER" with a value of `null`.  
 Your class should look something like
 ```java
 @ObjectHolder(ExampleMod.MODID)
@@ -28,7 +28,7 @@ public class ModTileEntityTypes {
 6. Make a constructor with no parameters that passes `ModTileEntityTypes.INFUSER` to `super`
 7. Make a new class in your `block` package (`mod.yourname.modpackagename.block`) called "InfuserBlock" that extends `Block` (`net.minecraft.block.Block`)
 8. Make a constructor "matching super" as reccomended by your IDE
-9. Override `hasTileEntity(IBlockState)` to return `true` and `createTileEntity(IBlockState)` to return the result of `ModTileEntityTypes.INFUSER.create()`
+9. Override `hasTileEntity(IBlockState)` to return `true` and `createTileEntity(IBlockState)` to return the result of `ModTileEntityTypes.INFUSER.create()`  
 Your class should look something like
 ```java
 public class InfuserBlock extends Block {
@@ -50,7 +50,7 @@ public class InfuserBlock extends Block {
 }
 ```
 
-10. Create and register the block in `ModEventSubscriber` in the `onRegisterBlocks` event subscriber method by creating a new `InfuserBlock` and passing it to `setup` inside the `registerAll` call. Your `InfuserBlock` should have properties with the `ROCK` `Material` and a `hardnessAndResistance` of `3.5F`. This makes the block very similar to the furnace
+10. Create and register the block in `ModEventSubscriber` in the `onRegisterBlocks` event subscriber method by creating a new `InfuserBlock` and passing it to `setup` inside the `registerAll` call. Your `InfuserBlock` should have properties with the `ROCK` `Material` and a `hardnessAndResistance` of `3.5F`. This makes the block very similar to the furnace  
 Your `onRegisterBlocks` method should now look something like
 ```java
 @SubscribeEvent
@@ -62,7 +62,7 @@ public static void onRegisterBlocks(RegistryEvent.Register<Block> event) {
 }
 ```
 
-11. We now need a `static` reference to our infuser block. W 
+11. We now need a `static` reference to our infuser block.
 12. Create a class called "ModBlock" in your `init` package (`mod.yourname.modpackagename.init`)  
 13. Annotate the `ModBlock` with `@ObjectHolder` (`net.minecraftforge.registries.ObjectHolder`) and have the parameter of the annotation be `ExampleMod.MODID`  
 > `@ObjectHolder`  
@@ -76,7 +76,7 @@ public class ModBlocks {
 }
 ```
 
-15. In `ModEventSubscriber` create a `public static void` method called `onRegisterTileEntityTypes` with a `RegistryEvent.Register<TileEntityType>` as its only parameter and annotate the method with `@SubscribeEvent`. 
+15. In `ModEventSubscriber` create a `public static void` method called `onRegisterTileEntityTypes` with a `RegistryEvent.Register<TileEntityType>` as its only parameter and annotate the method with `@SubscribeEvent`.  
 Your method should look something like
 ```java
 @SubscribeEvent
