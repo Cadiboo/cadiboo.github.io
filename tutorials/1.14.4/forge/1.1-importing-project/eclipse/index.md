@@ -32,3 +32,6 @@ This tutorial assumes you have already
 ![run-configs-popup](./run-configs-popup.png "run-configs-popup")  
 7) Run  
 ![running](./running.png "running")  
+
+
+##### [1.2 - Basic Mod](../1.2-basic-mod)
