@@ -73,3 +73,6 @@ public class ModItems {
 }
 ```
 Finally, change the result of the icon supplier in `ModItems` from `Items.LIGHT_BLUE_BANNER` to `ModItems.EXAMPLE_ITEM` to change our `ItemGroup`'s icon to our own example item.
+
+
+##### [1.8 - Localisation](./1.8-localisation)

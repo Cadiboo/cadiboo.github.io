@@ -53,3 +53,6 @@ public final class ExampleMod {
 
 }
 ```
+
+
+##### [1.4 - Proxies](../1.4-proxies)

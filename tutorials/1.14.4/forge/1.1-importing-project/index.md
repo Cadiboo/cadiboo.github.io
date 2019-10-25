@@ -38,3 +38,6 @@ Save your changes
 ![Run Debug](/tutorials/1.14.4/forge/1.1-importing-project/run-debug.png "Run Debug")  
 ![Run](/tutorials/1.14.4/forge/1.1-importing-project/run.png "Run")  
 2 Mods loaded!  
+
+
+##### [1.2 - Basic Mod](../1.2-basic-mod)

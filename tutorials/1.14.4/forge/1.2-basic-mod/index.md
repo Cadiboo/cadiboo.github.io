@@ -99,3 +99,6 @@ Finally run Minecraft and you should be able to see "2 mods loaded" in the botto
 ![title screen](/tutorials/1.14.4/forge/1.2-basic-mod/title-screen.png "title screen")  
 ![mods list](/tutorials/1.14.4/forge/1.2-basic-mod/mods-list.png "mods list")  
 ![examplemod in mods list](/tutorials/1.14.4/forge/1.2-basic-mod/examplemod-in-mods-list.png "examplemod in mods list")
+
+
+##### [1.3 - Doing Something](../1.3-doing-something)

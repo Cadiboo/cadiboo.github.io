@@ -18,3 +18,6 @@ This page assumes you already have basic knowledge of minecraft modding and Forg
 
 If you have a class called `ClientProxy`, `CommonProxy` or `ServerProxy` from a tutorial you followed I recommend you delete it.
 Sided Event Subscribers replace proxies functionality in 99% of cases and are necessary anyway.
+
+
+##### [1.5 - First Item](../1.5-first-item)

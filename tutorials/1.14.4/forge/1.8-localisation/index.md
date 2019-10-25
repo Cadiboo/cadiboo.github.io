@@ -34,3 +34,6 @@ Create a new file called "en_us.json" at `src/main/resources/assets/examplemod/l
 ```
 Each line is a key->value pairing where the key is the Translation Key of one of our objects and the value is the translated name for the object.
 ![localised](./localised.png "localised")
+
+
+##### [1.9 - First Block](./1.9-first-block)

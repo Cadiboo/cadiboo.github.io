@@ -30,7 +30,6 @@ Your final class should look something like
 ```java
 package io.github.cadiboo.examplemod;
 
-import io.github.cadiboo.examplemod.ExampleMod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
 @EventBusSubscriber(modid = ExampleMod.MODID, bus = EventBusSubscriber.Bus.MOD)
@@ -76,3 +75,6 @@ To finish off, run the game and you should be able to get your item with `/give`
 
 If you run into issues please make sure you look at the following image before asking for help. (Make sure you've annotated your method with `@SubscribeEvent`, that the method is a `public static void` and that the method has a single parameter (The class of the parameter must extend `net.minecraftforge.eventbus.api.Event`))  
 ![Why isn't my Event Subscriber Working](./eventsubscriber.png "Why isn't my Event Subscriber Working")
+
+
+##### [1.6 - Item Model](../1.6-item-model)

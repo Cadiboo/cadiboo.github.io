@@ -46,3 +46,6 @@ Finally, download [this texture](./example_item.png) (or make your own) and put 
 > **Important**: Texture files ***must*** be `.png` files
 
 Your item should now have a model and a texture. If anything goes wrong, check your logs, they're usually very descriptive.
+
+
+##### [1.7 - ItemGroup](../1.7-itemgroup)

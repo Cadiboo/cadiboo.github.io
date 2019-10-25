@@ -38,3 +38,6 @@ Now run the game and you should be able to put your block in the world with `/se
 
 If you run into issues please make sure you look at the following image before asking for help. (Make sure you've annotated your method with `@SubscribeEvent`, that the method is a `public static void` and that the method has a single parameter (The class of the parameter must extend `net.minecraftforge.eventbus.api.Event`))  
 ![Why isn't my Event Subscriber Working](./eventsubscriber.png "Why isn't my Event Subscriber Working")
+
+
+##### [1.10 - BlockItem](./1.10-blockitem)
