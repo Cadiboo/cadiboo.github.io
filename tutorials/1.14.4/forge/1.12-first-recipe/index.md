@@ -9,4 +9,4 @@ title: 1.12 - First Recipe
 2. Advancement
 
 
-##### [1.13 - Advanced Model](./1.13-advanced-model)
+##### [1.13 - Advanced Model](../1.13-advanced-model)

@@ -18,7 +18,7 @@ This tutorial assumes you have already
 You've probably noticed by now that both our example item or our mod's `ItemGroup` have weird names.
 ![unlocalised](./unlocalised.png "unlocalised")
 This is because we don't have any localisations for our objects yet.
-> Localisation/Internationalisation
+> **Localisation/Internationalisation**  
 > Users from multiple different areas will use our mod so we need to be able to provide different names for our objects in different languages. Localisation files allow us to do this by specifying translations that the game uses to map the Translation Keys of our objects to translated text. 
 > [Read](https://en.wikipedia.org/wiki/Internationalization_and_localization) [much](https://en.wikipedia.org/wiki/Language_localisation) [more](https://en.wikipedia.org/wiki/Video_game_localization)
 
@@ -36,4 +36,4 @@ Each line is a key->value pairing where the key is the Translation Key of one of
 ![localised](./localised.png "localised")
 
 
-##### [1.9 - First Block](./1.9-first-block)
+##### [1.9 - First Block](../1.9-first-block)

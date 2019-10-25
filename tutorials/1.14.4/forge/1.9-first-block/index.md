@@ -40,4 +40,4 @@ If you run into issues please make sure you look at the following image before a
 ![Why isn't my Event Subscriber Working](./eventsubscriber.png "Why isn't my Event Subscriber Working")
 
 
-##### [1.10 - BlockItem](./1.10-blockitem)
+##### [1.10 - BlockItem](../1.10-blockitem)

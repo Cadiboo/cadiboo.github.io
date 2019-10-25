@@ -24,11 +24,11 @@ First of all you need to change the version of your mod from `version = '1.0'` t
 ![Version](/tutorials/1.14.4/forge/1.0-gradle-configuration/version.png "Version")  
 
 Secondly replace `modid` with your mod's actual Mod Id.  
-> Mod Id
+> **Mod Id**
 > A Mod Id is a unique identifier for your mod. It must be between 8 and 64 characters and be made up of only **lowercase** alphanumeric letters (`a-z` and `0-9`), dashes (`-`) and underscores (`_`).
 
 You also need to change your mod group.
-> Mod Group  
+> **Mod Group**  
 > A Mod Group is the same as the packaging for your mod. **It can consist of only *lowercase* alphanumeric letters (`a-z` and `0-9`).** It is in the format `yourwebsitereversed.modid`. Websites are used in packaging to avoid name collisions. Your web presence is unique so it is commonly used. If you don’t have a website, you can use your version control repository as your web presence, e.g. `com.github.username.modid`. If you don’t use version control, start using it! In the meantime you can use the packaging `mod.yournameinlowercase.modid`.  
 **The entirety of your Mod Group needs to be in lowercase!** This is because some file systems (windows) consider `iTeMs` and `items` to be the same, but every other system considers them to be different. *Trying to load non-lowercase files on different filesystems can cause massive problems and hard-to-track-down bugs!*  
 Examples of Mod Groups are  
@@ -41,7 +41,7 @@ Replace `com.yourname.modid` with `mod.yournameinlowercase.modid` where "yournam
 ![modid](/tutorials/1.14.4/forge/1.0-gradle-configuration/modid.png "modid")  
 
 Thirdly you should update your MCP mappings to the latest stable release. **This step is optional**, however it is recommended to keep your mappings as updated as possible.
-> MCP Mappings  
+> **MCP Mappings**  
 > MCP (Mod Coder Pack) Mappings are what Forge uses to deobfuscate minecraft's code and turn it into something human-readable. These mapping names are provided by the community and can change, so it's relatively important to keep them up to date.
 
 You can find a list of mappings [here](http://export.mcpbot.bspk.rs). Simply copy the name/date of the release and put it into your `build.gradle` file in the `minecraft` block.
