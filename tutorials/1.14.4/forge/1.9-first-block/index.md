@@ -32,7 +32,7 @@ event.getRegistry().registerAll(
 	setup(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 3.0F)), "example_ore")
 );
 ```
-9) Run the game and you should be able to put your block in the world with `/setblock`. **Your block won't have an item counterpart, a model or do anything yet though.**  
+3) Run the game and you should be able to put your block in the world with `/setblock`. **Your block won't have an item counterpart, a model or do anything yet though.**  
 
 If you run into issues please make sure you look at the following image before asking for help. (Make sure you've annotated your method with `@SubscribeEvent`, that the method is a `public static void` and that the method has a single parameter (The class of the parameter must extend `net.minecraftforge.eventbus.api.Event`))  
 ![Why isn't my Event Subscriber Working](./eventsubscriber.png "Why isn't my Event Subscriber Working")

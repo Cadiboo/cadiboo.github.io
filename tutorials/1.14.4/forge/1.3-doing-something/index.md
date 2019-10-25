@@ -10,7 +10,9 @@ This tutorial assumes you have already
 - Read and followed [1.1 - Importing the project into your IDE](/tutorials/1.14.4/forge/1.1-importing-project/)
 - Read and followed [1.2 - Basic Mod](/tutorials/1.14.4/forge/1.2-basic-mod/)
 
-1. Make a `public` constructor with no arguments/parameters with nothing in it  
+Our mod currently doesn't do anything. Lets change that and print something to the log!  
+
+1. Make a `public` constructor with no arguments/parameters with nothing in it
 > Access levels  
 > Access level modifiers determine whether other classes can reference a particular class, use a particular field, or invoke a particular method. Having our constructor be `public` allows Forge to call it and create our mod.
 > - `public` Can be accessed by any class
@@ -19,7 +21,7 @@ This tutorial assumes you have already
 > - `private` Can only be accessed in its own class
 >
 > [More info](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
-
+  
 > Constructors  
 > A class contains constructors that are invoked to create objects from the class blueprint. Constructor declarations look like method declarations—except that they use the name of the class and have no return type.  
 > [More info](https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html)
@@ -37,9 +39,6 @@ import net.minecraftforge.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-/**
- * @author Cadiboo
- */
 @Mod(ExampleMod.MODID)
 public final class ExampleMod {
 

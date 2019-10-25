@@ -45,8 +45,8 @@ Open up that folder and continue to Chapter 1.
 ##### [2.4 - Branches](./2.4-branches) (WIP)
 
 ### Chapter 3 - More advanced modding
-##### [3.0 - TileEntity](./3.0-tileentity) (WIP)
-##### [3.1 - Block with BlockStates](./3.1-block-with-blockstates) (WIP)
+##### [3.0 - Block with BlockStates](./3.0-block-with-blockstates) (WIP)
+##### [3.1 - TileEntity](./3.1-tileentity) (WIP)
 ##### [3.2 - Entity](./3.2-entity) (WIP)
 ##### [3.3 - Config](./3.3-config) (WIP)
 ##### [3.4 - Capability](./3.4-capability) (WIP)

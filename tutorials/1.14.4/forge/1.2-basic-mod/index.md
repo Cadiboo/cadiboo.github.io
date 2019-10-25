@@ -10,6 +10,7 @@ This tutorial assumes you have already
 - Read and followed [1.1 - Importing the project into your IDE](/tutorials/1.14.4/forge/1.1-importing-project/)
 
 This tutorial will help you set up your main mod class and create the most basic mod possible.
+> Main Mod Class  
 > Your mod's Main mod class is the class that is loaded by Forge and sets up the data structures for your mod. In current versions this class doesn't really have much functionality except for making your mod a mod, but in previous versions, especially older ones, this class handled almost everything related to Forge and being a mod.
 
 ![java](/tutorials/1.14.4/forge/1.2-basic-mod/java.png "java")  
@@ -77,6 +78,7 @@ In your new class, create a constant `String` called `MODID` and make its value 
 > A `String` is a sequence of characters. A `String` is surrounded by quotation marks (`"`). An example of a `String` is `"Hello World!"` or `"Welcome to Modding!"`.
 
 Next import the `@Mod` annotation from `net.minecraftforge.fml.common.Mod` and annotate your class with it. This tells Forge that this class is a mod and should be loaded along with all other installed mods.
+> Imports  
 > Imports in Java allow you to use other classes in your code without fully qualifying them each time. Imports "import" Classes from other packages into your file. For example if you want to use the `@Mod` annotation, you need to import it from Forge's package before you can use it
 
 Your final main mod class should look something like this
@@ -85,9 +87,6 @@ package io.github.cadiboo.examplemod;
 
 import net.minecraftforge.fml.common.Mod;
 
-/**
- * @author Cadiboo
- */
 @Mod(ExampleMod.MODID)
 public final class ExampleMod {
 
