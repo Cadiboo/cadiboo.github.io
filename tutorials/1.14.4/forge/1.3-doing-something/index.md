@@ -13,7 +13,7 @@ This tutorial assumes you have already
 Our mod currently doesn't do anything. Lets change that and print something to the log!  
 
 To start off, make a `public` constructor with no arguments/parameters with nothing in it
-> Access levels  
+> **Access levels**  
 > Access level modifiers determine whether other classes can reference a particular class, use a particular field, or invoke a particular method. Having our constructor be `public` allows Forge to call it and create our mod.
 > - `public` Can be accessed by any class
 > - `protected` Can only be accessed by its own class or subclasses
@@ -22,12 +22,11 @@ To start off, make a `public` constructor with no arguments/parameters with noth
 >
 > [More info](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
 
-> Constructors  
-> A class contains constructors that are invoked to create objects from the class blueprint. Constructor declarations look like method declarations—except that they use the name of the class and have no return type.  
-> [More info](https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html)
+> **Constructors**  
+> A class contains constructors that are invoked to create objects from the class blueprint. Constructor declarations look like method declarations—except that they use the name of the class and have no return type. [More info](https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html)
 
 Now make a constant logger for your mod  
-`public static final Logger LOGGER = LogManager.getLogger(MODID);` (import the `log4j` logger not the `java.util` one)  
+`public static final Logger LOGGER = LogManager.getLogger(MODID);` (import the `org.apache.logging.log4j` logger not the `java.util` or `org.apache.logging.log4j.core` ones)  
 Then in your constructor call `LOGGER.debug("Hello from YourModName!");`  
 For eclipse people, you'll need to refresh `/src/`  
 Now run your game again and you should be able to see "Hello from YourModName!" in your log  

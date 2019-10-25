@@ -22,10 +22,10 @@ Your logs will contain something very similar to
 This tells us that the game tried to find our model at `models/item/example_item.json` but couldn't find it.  
 We are going to fix this and add a model and texture for our Item.  
 First of all, make a file called "example_item.json" in `src/main/resources/assets/examplemod/models/item/`.
-> Resources  
+> **Resources**  
 > A resource is data (images, audio, text, and so on) inside a program (this data isn't code though) that is used by that program. Resources are located in the assets directory (at `src/main/resources/assets/`). Mods contains resources including images, `obj` or `b3d` (advanced model) files and `json` files (like recipes, `json` models, blockstate json files and localisation files). [More](https://docs.oracle.com/javase/8/docs/technotes/guides/lang/resources.html#overview) [info](https://mcforge.readthedocs.io/en/latest/concepts/resources/)  
 
-> Item Models
+> **Item Models**
 > Item Model files are a specific subtype of json file. [More info](https://minecraft.gamepedia.com/Model#Item_models)  
 
 Inside the new `example_item.json` file paste the following text.

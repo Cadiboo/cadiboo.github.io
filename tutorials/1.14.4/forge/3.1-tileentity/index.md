@@ -8,16 +8,16 @@ This tutorial assumes you have already
 - Setup your mod folder as described at the top of [the main Forge 1.14.4 tutorials page](/tutorials/1.14.4/forge/)
 - Read and followed all of Chapter 1
 - Read and followed all of Chapter 2
-- Read and followed [3.0 - Block with BlockStates](../3.0-block-with-blockstates/)
+- Read and followed [3.0 - Block with BlockStates](../3.0-block-with-blockstates/) (Or that you at least have a `block` package)
 
 Making an Infuser `TileEntity`
 
 Before we start on our `TileEntity`, we need a place to store our `TileEntityType`.  
-> `TileEntityType`s  
+> **`TileEntityType`s**  
 > Unlike most objects that require a registry, `TileEntity`s are not [singeltons](https://en.wikipedia.org/wiki/Singleton_pattern). Previously this was gotten around by using class-based registration which was not optimal. Currently `TileEntityType`s are used for the registration of `TileEntity`s. A `TileEntityType` contains some data about a `TileEntity`, such as it's registry name, the blocks the `TileEntity` exists for, the (optional) datafixer for the `TileEntity`'s data and a [factory](http://en.wikipedia.org/wiki/Factory_method_pattern) that creates new instances of the `TileEntity`.
 
 Create a class called "ModTileEntityTypes" in your `init` package (`mod.yourname.modpackagename.init`). Annotate this class with `@ObjectHolder` (`net.minecraftforge.registries.ObjectHolder`) and have the parameter of the annotation be `ExampleMod.MODID`.
-> `@ObjectHolder`  
+> **`@ObjectHolder`**  
 > When you put the `@ObjectHolder` annotation on a class, Forge will look at every field in the class and set the value of each field. The value of the field will be set to the object in the field type's registry that has a registry name made up of the parameter of the annotation and the field's name (in lowercase).  
 > For example a field with a type of `Block` and a name of `INFUSER` (`public static final Block INFUSER = null;`) in a class annotated with `@ObjectHolder(ExampleMod.MODID)` will be filled with the the `Block` whose registry name is `examplemod:infuser`. [Read more](https://mcforge.readthedocs.io/en/latest/concepts/registries/#injecting-registry-values-into-fields)
 

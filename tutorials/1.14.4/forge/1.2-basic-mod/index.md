@@ -10,7 +10,7 @@ This tutorial assumes you have already
 - Read and followed [1.1 - Importing the project into your IDE](/tutorials/1.14.4/forge/1.1-importing-project/)
 
 This tutorial will help you set up your main mod class and create the most basic mod possible.
-> Main Mod Class  
+> **Main Mod Class**  
 > Your mod's Main mod class is the class that is loaded by Forge and sets up the data structures for your mod. In current versions this class doesn't really have much functionality except for making your mod a mod, but in previous versions, especially older ones, this class handled almost everything related to Forge and being a mod.
 
 ![java](/tutorials/1.14.4/forge/1.2-basic-mod/java.png "java")  
@@ -41,18 +41,18 @@ Commenting out this code stops Forge from discovering the example mod and knowin
 > Comments are parts of code that are ignored by your computer when it is running the code and only exist for humans to read. Comments are usually put on pieces of code to explain what that piece of code does and why that piece of code is there instead of somewhere else.
 
 Secondly open your `mods.toml` from `/src/main/resources/META-INF/mod.toml`. In this file change the `modid` to your mod's modid.
-> Mod Id  
+> **Mod Id**  
 > Your Mod Id is a unique identifier for your mod. It must be between 8 and 64 characters and be made up of only **lowercase** alphanumeric letters (`a-z` and `0-9`), dashes (`-`) and underscores (`_`).
 
 Then change the `displayName` to the Mod Name of your mod
-> Mod Name  
+> **Mod Name**  
 > Your Mod Name is the display name of your mod. Should contain only normal alphanumeric characters (a-z, A-Z, 0-9). It must be unique. Try and be innovative when coming up with your Mod Name because no other mod should be named something similar to your mod. If you have two mods with the same modid (which is derived from the mod name), the game will not be able to load.
 
 You can also change the `credits`, `authors` and `description` parts of your `mods.toml` file now, but this is not required and can be done later.
 
 Now we're finally going to start to write some code!
 Start off by making a new package.
-> Packaging  
+> **Packaging**  
 > The packaging for your mod is the same as the Mod Group. **It can consist of only *lowercase* alphanumeric letters (`a-z` and `0-9`).** It is in the format `yourwebsitereversed.modid`. Websites are used in packaging to avoid name collisions. Your web presence is unique so it is commonly used. If you don’t have a website, you can use your version control repository as your web presence, e.g. `com.github.username.modid`. If you don’t use version control, start using it! In the meantime you can use the packaging `mod.yournameinlowercase.modid`.  
 **The entirety of your Mod Group needs to be in lowercase!** This is because some file systems (windows) consider `iTeMs` and `items` to be the same, but every other system considers them to be different. *Trying to load non-lowercase files on different filesystems can cause massive problems and hard-to-track-down bugs!*  
 Examples of packaging for your mod:  
@@ -78,7 +78,7 @@ In your new class, create a constant `String` called `MODID` and make its value 
 > A `String` is a sequence of characters. A `String` is surrounded by quotation marks (`"`). An example of a `String` is `"Hello World!"` or `"Welcome to Modding!"`.
 
 Next import the `@Mod` annotation from `net.minecraftforge.fml.common.Mod` and annotate your class with it. This tells Forge that this class is a mod and should be loaded along with all other installed mods.
-> Imports  
+> **Imports**  
 > Imports in Java allow you to use other classes in your code without fully qualifying them each time. Imports "import" Classes from other packages into your file. For example if you want to use the `@Mod` annotation, you need to import it from Forge's package before you can use it
 
 Your final main mod class should look something like this
