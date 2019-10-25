@@ -59,7 +59,7 @@ public static class ModItemGroup extends ItemGroup {
 ### Creating the ItemGroup
 Now that we've made our helper class, we can make our actual `ItemGroup`. To do this, create a constant `ItemGroup` called `MOD_ITEM_GROUP` in `ModItemGroups` and initialise this field to a new `ModItemGroup` with `ExampleMod.MODID` as the name and `() -> new ItemStack(Items.LIGHT_BLUE_BANNER)` as the iconSupplier (import `Items` from `net.minecraft.item.Items`).  
 This sets up your `ItemGroup` with the vanilla light blue banner as it's icon. You use your own item by replacing `Items.LIGHT_BLUE_BANNER `with a reference to your own item (If you don't have one yet, read on).  
-The declatation of `MOD_ITEM_GROUP` should look something like
+The declaration of `MOD_ITEM_GROUP` should look something like
 ```java
 public static final ItemGroup MOD_ITEM_GROUP = new ModItemGroup(ExampleMod.MODID, () -> new ItemStack(Items.LIGHT_BLUE_BANNER));
 ```
