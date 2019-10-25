@@ -21,14 +21,14 @@ Your logs will contain something very similar to
 ```
 This tells us that the game tried to find our model at `models/item/example_item.json` but couldn't find it.  
 We are going to fix this and add a model and texture for our Item.  
-1) Make a file called "example_item.json" in `src/main/resources/assets/examplemod/models/item/`. 
+First of all, make a file called "example_item.json" in `src/main/resources/assets/examplemod/models/item/`.
 > Resources  
 > A resource is data (images, audio, text, and so on) inside a program (this data isn't code though) that is used by that program. Resources are located in the assets directory (at `src/main/resources/assets/`). Mods contains resources including images, `obj` or `b3d` (advanced model) files and `json` files (like recipes, `json` models, blockstate json files and localisation files). [More](https://docs.oracle.com/javase/8/docs/technotes/guides/lang/resources.html#overview) [info](https://mcforge.readthedocs.io/en/latest/concepts/resources/)  
 
 > Item Models
 > Item Model files are a specific subtype of json file. [More info](https://minecraft.gamepedia.com/Model#Item_models)  
 
-2) Inside the new `example_item.json` file paste
+Inside the new `example_item.json` file paste the following text.
 ```json
 {
 	"parent": "item/generated",
@@ -37,9 +37,12 @@ We are going to fix this and add a model and texture for our Item.
 	}
 }
 ```
-The `"parent"` of `"item/generated"` means that this model is an item and uses the normal flat model. The texture `"examplemod:item/example_item"` of `"layer0"` in the `"textures"` tag makes the model's texture be our example item's texture (which we haven't created yet). The texture `"layer0"` is defined in the model `"item/generated"` so it will be rendered. [More info](https://minecraft.gamepedia.com/Model#Simple_example:_2D_beds)  
+This text defines our example item's model.  
+The `"parent"` of `"item/generated"` means that this model is an item and uses the normal flat model.  
+The texture `"examplemod:item/example_item"` of `"layer0"` in the `"textures"` tag makes the model's texture be our example item's texture (which we haven't created yet).  
+The texture `"layer0"` is defined in the model `"item/generated"` so it will be rendered. [More info](https://minecraft.gamepedia.com/Model#Simple_example:_2D_beds)  
 
-3) Download [this texture]() and put it at `src/main/resources/assets/examplemod/textures/item/` with the name "example_item.png"  
+Finally, download [this texture](./example_item.png) (or make your own) and put it at `src/main/resources/assets/examplemod/textures/item/` with the name "example_item.png"  
 > **Important**: Texture files ***must*** be `.png` files
 
 Your item should now have a model and a texture. If anything goes wrong, check your logs, they're usually very descriptive.

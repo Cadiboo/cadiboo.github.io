@@ -29,11 +29,11 @@ Open up that folder and continue to Chapter 1.
 ##### [1.4 - Proxies](./1.4-proxies)
 ##### [1.5 - First Item](./1.5-first-item)
 ##### [1.6 - Item Model](./1.6-item-model)
-##### [1.7 - ItemGroup](./1.7-itemgroup)=
-##### [1.8 - Localisation](./1.8-localisation) (WIP)
+##### [1.7 - ItemGroup](./1.7-itemgroup)
+##### [1.8 - Localisation](./1.8-localisation)
 ##### [1.9 - First Block](./1.9-first-block)
 ##### [1.10 - BlockItem](./1.10-blockitem) (WIP)
-##### [1.11 - Block Loot](./1.11-block-loot)
+##### [1.11 - Block Loot](./1.11-block-loot) (WIP)
 ##### [1.12 - First Recipe](./1.12-first-recipe) (WIP)
 ##### [1.13 - Advanced Model](./1.13-advanced-model) (WIP)
 
@@ -46,7 +46,7 @@ Open up that folder and continue to Chapter 1.
 
 ### Chapter 3 - More advanced modding
 ##### [3.0 - Block with BlockStates](./3.0-block-with-blockstates) (WIP)
-##### [3.1 - TileEntity](./3.1-tileentity) (WIP)
+##### [3.1 - TileEntity](./3.1-tileentity)
 ##### [3.2 - Entity](./3.2-entity) (WIP)
 ##### [3.3 - Config](./3.3-config) (WIP)
 ##### [3.4 - Capability](./3.4-capability) (WIP)

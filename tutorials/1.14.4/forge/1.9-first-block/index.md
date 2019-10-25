@@ -16,8 +16,10 @@ This tutorial assumes you have already
 - Read and followed [1.7 - ItemGroup](../1.7-itemgroup/)
 - Read and followed [1.8 - Localisation](../1.8-localisation/)
 
-1) In `ModEventSubscriber` create a `public static void` method called `onRegisterBlocks` with a `RegistryEvent.Register<Block>` as its only parameter and annotate the method with `@SubscribeEvent`. 
-Your method should look like
+In this tutorial we're going to add a new block to the game.  
+
+To start off, go to your `ModEventSubscriber` and create a `public static void` method called `onRegisterBlocks` with a `RegistryEvent.Register<Block>` as its only parameter. Next, annotate the method with `@SubscribeEvent`. 
+Your method should look something like
 ```java
 @SubscribeEvent
 public static void onRegisterBlocks(RegistryEvent.Register<Block> event) {
@@ -25,14 +27,14 @@ public static void onRegisterBlocks(RegistryEvent.Register<Block> event) {
 }
 ```
 
-2) Inside the `onRegisterBlocks` event subscriber method add a call to the event's registry's `registerAll` method with `event.getRegistry().registerAll();`. Inside the final brackets (The ones that invoke `registerAll`) make 2 new lines and create a new `Block` with `new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 3.0F))`. This simply creates a new `Block` with the `ROCK` material, a hardness of 3 and a resistance of 3 (very similar to iron ore), but we need to also set its **registry name**. Do this by passing the new `Block` as the first parameter of a call to the `setup` method, and the `String` `"example_ore"` as the second parameter.  
+Now go inside the `onRegisterBlocks` event subscriber method and add a call to the event's registry's `registerAll` method with `event.getRegistry().registerAll();`. Inside the final brackets (The ones that invoke `registerAll`) make 2 new lines and create a new `Block` with `new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 3.0F))`. This simply creates a new `Block` with the `ROCK` material, a hardness of 3 and a resistance of 3 (very similar to iron ore), but we need to also set its **registry name**. Do this by passing the new `Block` as the first parameter of a call to the `setup` method, and the `String` `"example_ore"` as the second parameter.  
 All this combined should look like
 ```java
 event.getRegistry().registerAll(
 	setup(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 3.0F)), "example_ore")
 );
 ```
-3) Run the game and you should be able to put your block in the world with `/setblock`. **Your block won't have an item counterpart, a model or do anything yet though.**  
+Now run the game and you should be able to put your block in the world with `/setblock`. **Your block won't have an item counterpart, a model or do anything yet though.**  
 
 If you run into issues please make sure you look at the following image before asking for help. (Make sure you've annotated your method with `@SubscribeEvent`, that the method is a `public static void` and that the method has a single parameter (The class of the parameter must extend `net.minecraftforge.eventbus.api.Event`))  
 ![Why isn't my Event Subscriber Working](./eventsubscriber.png "Why isn't my Event Subscriber Working")

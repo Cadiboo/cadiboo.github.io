@@ -11,6 +11,5 @@ This tutorial assumes you have already
 
 # This tutorial is not finished (WIP)
 
-1. Make a new package called "block" in your root package (`mod.yourname.modpackagename.block`)
-2. Make a new class in your `block` package called "<what do I call this?>" that extends `Block` (`net.minecraft.block.Block`) (should it extend Directional Block)
-3. Make a constructor "matching super" as reccomended by your IDE
+Firs of all, make a new package called "block" in your root package (`mod.yourname.modpackagename.block`)  
+Then create a new class in your `block` package called "<what do I call this?>" that extends `Block` (`net.minecraft.block.Block`) (should it extend Directional Block) and give it a constructor "matching super" as reccomended by your IDE
