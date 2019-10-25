@@ -16,6 +16,7 @@ This tutorial assumes you have already
 
 Now we're going to add an `ItemGroup` (previously called a `CreativeTab`) to our mod to contain our mod's items in the creative menu.
 
+### Setup & Util code
 First of all, make a new package called `init` (`mod.yourname.modpackagename.init`). Then make a new class called "ModItemGroups" in that package. Next, create an `public static` inner class called "ModItemGroup" that extends `ItemGroup` (from `net.minecraft.item.ItemGroup`) in `ModItemGroups`.  
 > **Inner classes**  
 > Inner classes are classes which are declared *inside* a class or interface. Inner classes are used to implement encapsulation and logically group classes & interfaces together in one location to make them more readable and maintainable. [Read](https://www.javatpoint.com/java-inner-class) [more](https://www.tutorialspoint.com/java/java_innerclasses.htm)  
@@ -33,10 +34,12 @@ To allow us to write less code, we're going to pass our icon into the constructo
 > The lambda expression assigned to an object of `Supplier` type is used to define its `get()` method which produces a value when called. `Supplier`s are useful for deferring the creation of objects.  
 > An example of a `Supplier` would be `() -> new Object()` or `() -> "Hello"` or `() -> new Thing()`.  
 
+In our case we use a `Supplier` because need to delay the creation of the `ItemGroup`'s icon `ItemStack`. We need to delay it because `ItemGroup`s are created before any `Item`s are registered. The icon is not needed before the first time the ItemGroup is rendered (by which time `Item`s will have been registered). If we try to make a new `ItemStack` with an `Item` when we create our `ItemGroup`, we will get an error because all `Item`s are null at this time and trying to use them will cause a `NullPointerException`. Using a `Supplier` delays creation of the icon `ItemStack` until its needed.  
+
 Now, create a `public` constructor for your `ModItemGroup` class with two parameters, a `String` called "name" and a `Supplier<ItemStack>` called `iconSupplier`. Add a `final` to the class of type `Supplier<ItemStack>` called `iconSupplier` and assign the constructor parameter to it. To actually use the icon, override the `createIcon()` method and return the result of `iconSupplier.get()`  
 Your inner class should look like
 ```java
-public static final class ModItemGroup extends ItemGroup {
+public static class ModItemGroup extends ItemGroup {
 
 	private final Supplier<ItemStack> iconSupplier;
 
@@ -53,11 +56,19 @@ public static final class ModItemGroup extends ItemGroup {
 }
 ```
 
-Now that we've made our helper class, we can make our actual `ItemGroup`. To do this, create a constant `ItemGroup` called `MOD_ITEM_GROUP` in `ModItemGroups` and initialise this field to a new `ModItemGroup` with `ExampleMod.MODID` as the name and `() -> new ItemStack(Items.LIGHT_BLUE_BANNER)` as the iconSupplier (`Items` from `net.minecraft.item.Items`).  
+### Creating the ItemGroup
+Now that we've made our helper class, we can make our actual `ItemGroup`. To do this, create a constant `ItemGroup` called `MOD_ITEM_GROUP` in `ModItemGroups` and initialise this field to a new `ModItemGroup` with `ExampleMod.MODID` as the name and `() -> new ItemStack(Items.LIGHT_BLUE_BANNER)` as the iconSupplier (import `Items` from `net.minecraft.item.Items`).  
+This sets up your `ItemGroup` with the vanilla light blue banner as it's icon. You use your own item by replacing `Items.LIGHT_BLUE_BANNER `with a reference to your own item (If you don't have one yet, read on).  
+The declatation of `MOD_ITEM_GROUP` should look something like
+```java
+public static final ItemGroup MOD_ITEM_GROUP = new ModItemGroup(ExampleMod.MODID, () -> new ItemStack(Items.LIGHT_BLUE_BANNER));
+```
 
-Now we're going to add all our `Item`s and `BlockItem`s to our new tab. We do this by calling `group(ModItemGroups.MOD_ITEM_GROUP)` on every `Item.Properties` that we pass into our `Item` constructors. For example, `new Item(new Item.Properties())` will become `new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP))`. We need to do this for our `example_item` that we register in `ModEventSubscriber` inside the `onRegisterItems` event subscriber method.
+### Using our ItemGroup
+Now we're going to add all our `Item`s and `BlockItem`s to our new tab. We do this by calling `group(ModItemGroups.MOD_ITEM_GROUP)` on every `Item.Properties` that we pass into our `Item` constructors. For example, `new Item(new Item.Properties())` will become `new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP))`. We need to do this for our `example_item` that we register in `ModEventSubscriber` inside the `onRegisterItems` event subscriber method.  
+![item-properties-group](./item-properties-group.png "item-properties-group")
 
-
+### Using our own example item as our icon
 Now our `ItemGroup` works perfectly, but it has a vanilla banner as its icon. To change this we need to change `Items.LIGHT_BLUE_BANNER` to reference our own item. However, we don't have a static reference to our own item so we need to make one.  
 To do this, create a new class called "ModItems" in your `init` package (`mod.yourname.modpackagename.init`). Then annotate the class with `@ObjectHolder` (`net.minecraftforge.registries.ObjectHolder`) and have the parameter of the annotation be `ExampleMod.MODID`  
 > **`@ObjectHolder`**  
