@@ -19,6 +19,9 @@ Some examples of mod file names
 - Tinkers-Construct
 - Inventory-Tweaks
 
+The Forge MDK contains some extra files that we will not need.  
+See which ones are necessary and which ones you can delete [here](./mdk-files).  
+
 Open up that folder and continue to Chapter 1.  
 
 ### Chapter 1 - Setting up the basics
