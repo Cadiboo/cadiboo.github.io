@@ -13,10 +13,10 @@ This tutorial assumes you have already
 ![workbench](./workbench.png "workbench")  
 2. Go to `File > Import > Existing Gradle Project` and import the project.
 ![menu-import](./menu-import.png "menu-import")
-![import-popup](./import-popup.png "import-popup")
-![import-wizard](./import-wizard.png "import-wizard")
-![import-select0](./import-select0.png "import-select0")  
-![import-select1](./import-select1.png "import-select1")
+![import-gradle-popup](./import-gradle-popup.png "import-gradle-popup")
+![import-gradle-wizard](./import-gradle-wizard.png "import-gradle-wizard")
+![import-gradle-select0](./import-gradle-select0.png "import-gradle-select0")  
+![import-gradle-select1](./import-gradle-select1.png "import-gradle-select1")
 3. Wait for the import/sync to complete  
 ![import-sync0](./import-sync0.png "import-sync0")  
 ![import-sync1](./import-sync1.png "import-sync1")  
@@ -51,5 +51,18 @@ All of these run configs launch minecraft.
 # Troubleshooting
 When asking for help make sure to include your console log.  
 ![gradlew-genEclipseRuns-log](./gradlew-genEclipseRuns-log.png "gradlew-genEclipseRuns-log")  
+
+#### If your run configs fail to generate:  
+First try closing eclipse, then running `gradlew genEclipseRuns` from the command line, then opening eclipse back up.  
+If this doesn't work **but the `.launch` files generate in your mod's folder properly**, try importing them manually.  
+Do this by going to `File > Import > Launch Configurations`, selecting your mods folder and importing all run configs from there.  
+Before:  
+![run-configs-before](./run-configs-before.png "run-configs-before")  
+![run-config-files](./run-config-files.png "run-config-files")  
+After:  
+![menu-import](./menu-import.png "menu-import")  
+![import-launch-popup](./import-launch-popup.png "import-launch-popup")  
+![import-launch-select](./import-launch-select.png "import-launch-select")  
+![run-configs-after](./run-configs-after.png "run-configs-after")  
 
 ##### [1.2 - Basic Mod](../../1.2-basic-mod)
