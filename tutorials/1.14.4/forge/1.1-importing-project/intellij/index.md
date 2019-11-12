@@ -37,7 +37,7 @@ This will take a while as Forge downloads everything and sets up your modding en
 ![Module](./module.png "Module")  
 ![Set Module](./set-module.png "Set Module")  
 Save your changes  
-All of these run configs launch minecraft.
+All of these run configs launch minecraft.  
 ![Run configs list](./run-configs-list.png "Run configs list")  
 	- `runClient` launches the minecraft client
 	- `runData` launches minecraft in a special mode that only does the bare minimum required to automatically generate json files like recipes and blockstates.
@@ -45,7 +45,6 @@ All of these run configs launch minecraft.
 7. Run the game  
 ![Run `runClient`](./run-runClient.png "Run runClient")  
 ![Running](./running.png "Running")  
-2 Mods loaded!  
 
 # Troubleshooting
 When asking for help make sure to include your console log.  

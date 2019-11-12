@@ -39,7 +39,7 @@ Choose `Java Application > runClient`
 ![run-configs-popup](./run-configs-popup.png "run-configs-popup")  
 Open the Run menu and select the `runClient` run configuration  
 ![menu-run-configs-after](./menu-run-configs-after.png "menu-run-configs-after")  
-All of these run configs launch minecraft.
+All of these run configs launch minecraft.  
 ![run-configs-list](./run-configs-list.png "run-configs-list")  
 	- `runClient` launches the minecraft client
 	- `runData` launches minecraft in a special mode that only does the bare minimum required to automatically generate json files like recipes and blockstates.
