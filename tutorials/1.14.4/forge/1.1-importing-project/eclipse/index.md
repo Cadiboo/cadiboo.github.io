@@ -29,7 +29,7 @@ This tutorial assumes you have already
 This will take a while as Forge downloads everything and sets up your modding environment.  
 ![gradlew-eclipse](./gradlew-eclipse.png "gradlew-eclipse")  
 ![gradlew-eclipse-exec](./gradlew-eclipse-exec.png "gradlew-eclipse-exec")  
-6. Run the `genEclipseRuns` task  
+6. Run the `genEclipseRuns` task to generate the run configs to run minecraft  
 ![gradlew-genEclipseRuns](./gradlew-genEclipseRuns.png "gradlew-genEclipseRuns")  
 ![gradlew-genEclipseRuns-exec](./gradlew-genEclipseRuns-exec.png "gradlew-genEclipseRuns-exec")
 7. Choose your run configuration  

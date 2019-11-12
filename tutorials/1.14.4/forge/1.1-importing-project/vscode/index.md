@@ -11,7 +11,7 @@ This tutorial assumes you have already
 - Chosen VSCode from [1.1 - Importing the project into your IDE](..)
 
 # VSCode
-I have no clue how to use VSCode. I just know its possible.
-
+I have no clue how to use VSCode. I just know its possible because theres a gradle task for it.
+![`genVSCodeRuns`](./genVSCodeRuns.png "genVSCodeRuns")  
 
 ##### [1.2 - Basic Mod](../../1.2-basic-mod)
