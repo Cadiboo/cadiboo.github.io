@@ -32,7 +32,10 @@ This will take a while as Forge downloads everything and sets up your modding en
 6. Run the `genEclipseRuns` task to generate the run configs to run minecraft  
 ![gradlew-genEclipseRuns](./gradlew-genEclipseRuns.png "gradlew-genEclipseRuns")  
 ![gradlew-genEclipseRuns-exec](./gradlew-genEclipseRuns-exec.png "gradlew-genEclipseRuns-exec")
-7. Choose your run configuration  
+7. Refresh your project  
+Go to your project explorer, select your project and then select refresh  
+![refresh](./refresh.png "refresh")  
+8. Choose your run configuration  
 Go to the Run Configurations menu  
 ![menu-run-configs](./menu-run-configs.png "menu-run-configs")  
 Choose `Java Application > runClient`  
@@ -44,9 +47,9 @@ All of these run configs launch minecraft.
 	- `runClient` launches the minecraft client
 	- `runData` launches minecraft in a special mode that only does the bare minimum required to automatically generate json files like recipes and blockstates.
 	- `runServer` launches the minecraft server
-8. Run the game  
+9. Run the game  
 ![running](./running.png "running")  
-9. Change package representation to `hierarchical` (optional)  
+10. Change package representation to `hierarchical` (optional)  
 ![package-presentation](./package-presentation.png "package-presentation")  
 ![package-presentation-hierarchical](./package-presentation-hierarchical.png "package-presentation-hierarchical")  
 
