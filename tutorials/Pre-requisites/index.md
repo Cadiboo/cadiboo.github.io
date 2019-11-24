@@ -8,6 +8,7 @@ It is ***HIGHLY RECOMMENDED*** that you learn Java before attempting to make a m
 - [https://www.javatpoint.com/java-tutorial](https://www.javatpoint.com/java-tutorial)
 - [https://docs.oracle.com/javase/tutorial/java/javaOO/](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)
 - [http://tutorials.jenkov.com/java/what-is-java.html](http://tutorials.jenkov.com/java/what-is-java.html)
+- [Learn Java OOP in 10 minutes (seriously) - YouTube](https://www.youtube.com/watch?v=CWYv7xlKydw)
 
  I know that many of you won't spend any time trying to learn Java before you start modding (or probably even read this page at all), so I've tried to mix definitions of relevant concepts into my tutorials. **This is not a substitute for learning Java though!**  
 
