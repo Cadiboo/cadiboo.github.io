@@ -9,7 +9,7 @@ This tutorial assumes you have already
 - Read and followed all of Chapter 1
 - Read and followed all of Chapter 2
 
-1. Make a class in a new package called config. Call it "MyModConfig" or something.  
+Firstly, make a class in a new package called config. Call it "MyModConfig" or something.  
 ```java
 public class YourConfig {
 
@@ -32,8 +32,11 @@ public class YourConfig {
 }
 ```
 This code creates the specification for your config. This controls what is allowed in your config. Forge automatically handles validating your config based on this.  
-2. Put your config spec values in the class.  
+
+Now edit your Client class to put your config spec values in.  
+
 ```java
+
 public class Client {
 
 	public final BooleanValue aBoolean;
@@ -54,14 +57,16 @@ public class Client {
 	}
 
 }
+
 ```
 This code actually defines the values in your config, their name, their comment, their translation key and their default value. The calls to `push` and `pop` make a category. Categories can be nested.  
-3. Register your config (inside your mod's constructor in your main mod class)  
+Next you need to register your config (inside your mod's constructor in your main mod class)  
 ```java
 ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, YourConfig.CLIENT_SPEC);
 ```
 This code registers your config with Forge. This allows server configs to be synced when you join a server so everyone has the same configuration and Forge to fire the appropriate config events for you.  
-4. Make a method to bake your values  
+
+Now make a method to bake your config values  
 > "Baking" means taking the values from the config object, turning them into Java objects and putting them in a field.
 
 We bake a config because calling the get/set methods on the config object are much more expensive than just field access.  
@@ -88,7 +93,9 @@ public class YourConfig {
 
 }
 ```
-5. Make an event subscription method and subscribe the class to the mod event bus.  
+
+Next we need to call the bake method at the right time.  
+Make an event subscription method and subscribe the class to the mod event bus.  
 Event subscription method:  
 ```java
 @SubscribeEvent
@@ -103,7 +110,6 @@ public class YourConfig {
 	//...
 }
 ```
-
 
 Your final config class should look something like  
 ```java
