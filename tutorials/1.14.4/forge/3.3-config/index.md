@@ -31,6 +31,7 @@ public class YourConfig {
 	}
 }
 ```
+This code creates the specification for your config. This controls what is allowed in your config. Forge automatically handles validating your config based on this.  
 2. Put your config spec values in the class  
 ```java
 public class Client {
@@ -44,18 +45,22 @@ public class Client {
 				.translation(YourMod.MODID + ".config." + "aBoolean")
 				.define("aBoolean", false);
 
+		builder.push("category");
 		anInt = builder
 				.comment("anInt usage description")
 				.translation(YourMod.MODID + ".config." + "anInt")
 				.defineInRange("anInt", 10, 0, 100);
+		builder.pop();
 	}
 
 }
 ```
+This code actually defines the values in your config, their name, their comment, their translation key and their default value. The calls to `push` and `pop` make a category. Categories can be nested.  
 3. Register your config (Main mod constructor)  
 ```java
 ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, YourConfig.CLIENT_SPEC);
 ```
+This code registers your config with Forge. This allows server configs to be synced and Forge to fire the appropriate config events for you.  
 4. Make a method to bake your values  
 > "Baking" means taking the values from the config object, turning them into Java objects and putting them in a field.
 > You bake a config because the get/set methods on the config object are expensive
