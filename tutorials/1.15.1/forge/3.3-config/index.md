@@ -100,7 +100,9 @@ Event subscription method:
 ```java
 @SubscribeEvent
 public static void onModConfigEvent(final ModConfig.ModConfigEvent configEvent) {
-	bakeConfig();
+	if (configEvent.getConfig().getSpec() == YourConfig.CLIENT_SPEC) {
+		bakeConfig();
+	}
 }
 ```
 Class event subscriber annotation:  
@@ -128,7 +130,9 @@ public class YourConfig {
 
 	@SubscribeEvent
 	public static void onModConfigEvent(final ModConfig.ModConfigEvent configEvent) {
-		bakeConfig();
+		if (configEvent.getConfig().getSpec() == YourConfig.CLIENT_SPEC) {
+			bakeConfig();
+		}
 	}
 
 	public static void bakeConfig() {

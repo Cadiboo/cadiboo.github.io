@@ -22,18 +22,13 @@ description: The home of Cadiboo's Programming Endeavours!
 navbar-links:
   Tutorials:
     - All Tutorials: "https://cadiboo.github.io/tutorials/"
-    - 1.15.1: "https://cadiboo.github.io/tutorials/1.15.1/"
+    - 1.15: "https://cadiboo.github.io/tutorials/1.15.1/"
     - Forge 1.15.1: "https://cadiboo.github.io/tutorials/1.15.1/forge/"
-    - 1.14.4: "https://cadiboo.github.io/tutorials/1.14.4/"
+    - 1.14: "https://cadiboo.github.io/tutorials/1.14.4/"
     - Forge 1.14.4: "https://cadiboo.github.io/tutorials/1.14.4/forge/"
-    - 1.14.3: "https://cadiboo.github.io/tutorials/1.14.3/"
-    - Forge 1.14.3: "https://cadiboo.github.io/tutorials/1.14.3/forge/"
-    - 1.14.2: "https://cadiboo.github.io/tutorials/1.14.2/"
-    - Forge 1.14.2: "https://cadiboo.github.io/tutorials/1.14.2/forge/"
-    - Fabric 1.14.2: "https://cadiboo.github.io/tutorials/"
-    - 1.13.2: "https://cadiboo.github.io/tutorials/1.13.2/"
+    - 1.13: "https://cadiboo.github.io/tutorials/1.13.2/"
     - Forge 1.13.2: "https://cadiboo.github.io/tutorials/1.13.2/forge/"
-    - 1.12.2: "https://cadiboo.github.io/tutorials/1.12.2/"
+    - 1.12: "https://cadiboo.github.io/tutorials/1.12.2/"
     - Forge 1.12.2: "https://cadiboo.github.io/tutorials/1.12.2/"
   Projects:
     - All Projects: "https://cadiboo.github.io/projects/"

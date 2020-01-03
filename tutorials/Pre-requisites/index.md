@@ -12,6 +12,7 @@ It is ***HIGHLY RECOMMENDED*** that you learn Java before attempting to make a m
 - [Official Java Tutorial - Oracle](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html) (Very comprehensive but long and a bit dry. Lots and lots of code examples)
 - [What is Java - Jenkov](http://tutorials.jenkov.com/java/what-is-java.html) (Brief descriptions of parts of Java, then a very in depth tutorial with tons of code examples)
 - [Java Tutorial - Javatpoint](https://www.javatpoint.com/java-tutorial) (Comprehensive but assumes you already have knowledge of the C/C++ programming language)
+- [Java Tutorial - Udemy](https://www.udemy.com/course/java-tutorial/) (Free course. Doesn't assume you have prior programming knowledge)
 
 
  I know that many of you won't spend any time trying to learn Java before you start modding (or probably even read this page at all), so I've tried to mix definitions of relevant concepts into my tutorials. **This is not a substitute for learning Java though!**  
