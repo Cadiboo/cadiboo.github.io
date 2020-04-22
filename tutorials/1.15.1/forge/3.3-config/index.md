@@ -16,7 +16,7 @@ public class YourConfig {
 	public static final ClientConfig CLIENT;
 	public static final ForgeConfigSpec CLIENT_SPEC;
 	static {
-		final Pair<Client, ForgeConfigSpec> specPair = new ForgeConfigSpec.Builder().configure(ClientConfig::new);
+		final Pair<ClientConfig, ForgeConfigSpec> specPair = new ForgeConfigSpec.Builder().configure(ClientConfig::new);
 		CLIENT_SPEC = specPair.getRight();
 		CLIENT = specPair.getLeft();
 	}
@@ -24,7 +24,7 @@ public class YourConfig {
 	// Doesn't need to be an inner class
 	public static class ClientConfig {
 
-		 public Client(ForgeConfigSpec.Builder builder) {
+		 public ClientConfig(ForgeConfigSpec.Builder builder) {
 
 		 }
 
@@ -33,16 +33,16 @@ public class YourConfig {
 ```
 This code creates the specification for your config. This controls what is allowed in your config. Forge automatically handles validating your config based on this.  
 
-Now edit your Client class to put your config spec values in.  
+Now edit your ClientConfig class to put your config spec values in.
 
 ```java
 
-public class Client {
+public class ClientConfig {
 
 	public final BooleanValue aBoolean;
 	public final IntValue anInt;
 
-	public Client(ForgeConfigSpec.Builder builder) {
+	public ClientConfig(ForgeConfigSpec.Builder builder) {
 		aBoolean = builder
 				.comment("aBoolean usage description")
 				.translation(YourMod.MODID + ".config." + "aBoolean")
@@ -75,7 +75,7 @@ public class YourConfig {
 	public static final ClientConfig CLIENT;
 	public static final ForgeConfigSpec CLIENT_SPEC;
 	static {
-		final Pair<Client, ForgeConfigSpec> specPair = new ForgeConfigSpec.Builder().configure(ClientConfig::new);
+		final Pair<ClientConfig, ForgeConfigSpec> specPair = new ForgeConfigSpec.Builder().configure(ClientConfig::new);
 		CLIENT_SPEC = specPair.getRight();
 		CLIENT = specPair.getLeft();
 	}
@@ -120,7 +120,7 @@ public class YourConfig {
 	public static final ClientConfig CLIENT;
 	public static final ForgeConfigSpec CLIENT_SPEC;
 	static {
-		final Pair<Client, ForgeConfigSpec> specPair = new ForgeConfigSpec.Builder().configure(ClientConfig::new);
+		final Pair<ClientConfig, ForgeConfigSpec> specPair = new ForgeConfigSpec.Builder().configure(ClientConfig::new);
 		CLIENT_SPEC = specPair.getRight();
 		CLIENT = specPair.getLeft();
 	}
@@ -140,12 +140,12 @@ public class YourConfig {
 		anInt = CLIENT.anInt.get();
 	}
 
-	public static class Client {
+	public static class ClientConfig {
 
 		public final BooleanValue aBoolean;
 		public final IntValue anInt;
 
-		public Client(ForgeConfigSpec.Builder builder) {
+		public ClientConfig(ForgeConfigSpec.Builder builder) {
 			aBoolean = builder
 					.comment("aBoolean usage description")
 					.translation(YourMod.MODID + ".config." + "aBoolean")
