@@ -5,9 +5,33 @@ title: 2.0 - Making a GitHub Account
 This tutorial assumes you have already
 - Read the [Pre-requisites](/tutorials/Pre-requisites)
 - Downloaded the latest Forge MDK
-- Setup your mod folder as described at the top of [the main Forge 1.15.2 tutorials page](/tutorials/1.15.2/forge/)
+- Setup your mod folder as described at the top of [the main Forge 1.15.1 tutorials page](/tutorials/1.15.1/forge/)
 - Read and followed [1.0 - Gradle Configuration](../1.0-gradle-configuration/)
 - Read and followed [1.1 - Importing the project into your IDE](../1.1-importing-project/)
 - Read and followed [1.2 - Basic Mod](../1.2-basic-mod/)
 
-1) Head over to [https://github.com/join](https://github.com/join) (You only need a free plan, theres nothing you need for modding that you need to pay for)
+Head over to [https://github.com/join](https://github.com/join).
+You only need a free plan, there's nothing you need for modding that you need to pay for.
+
+Then simply follow the steps to create your account.
+
+Create our account
+![sign up](sign_up.png)
+
+Complete the verification
+![creating](creating.png)
+![captcha](captcha.png)
+
+Choose the free plan
+![choose plan](choose_plan.png)
+![choose free](choose_free.png)
+
+Verify your email
+![verify email](verify_email.png)
+
+You should end up on this page
+![create repo](create_repo.png)
+
+
+##### [2.1 - Download a Git Client](../2.1-download-git-client)
+
