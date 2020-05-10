@@ -7,6 +7,8 @@ title: Modding Tutorials
 ## Read the [Pre-requisites](/tutorials/Pre-requisites) first!
 
 ### 1.15
+- [1.15.2](/tutorials/1.15.2/)
+	- [Forge](/tutorials/1.15.2/forge/)
 - [1.15.1](/tutorials/1.15.1/)
 	- [Forge](/tutorials/1.15.1/forge/)
 

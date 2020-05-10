@@ -5,10 +5,10 @@ title: 1.3 - Doing Something
 This tutorial assumes you have already
 - Read the [Pre-requisites](/tutorials/Pre-requisites)
 - Downloaded the latest Forge MDK
-- Setup your mod folder as described at the top of [the main Forge 1.15.1 tutorials page](/tutorials/1.15.1/forge/)
-- Read and followed [1.0 - Gradle Configuration](/tutorials/1.15.1/forge/1.0-gradle-configuration/)
-- Read and followed [1.1 - Importing the project into your IDE](/tutorials/1.15.1/forge/1.1-importing-project/)
-- Read and followed [1.2 - Basic Mod](/tutorials/1.15.1/forge/1.2-basic-mod/)
+- Setup your mod folder as described at the top of [the main Forge 1.15.2 tutorials page](/tutorials/1.15.2/forge/)
+- Read and followed [1.0 - Gradle Configuration](/tutorials/1.15.2/forge/1.0-gradle-configuration/)
+- Read and followed [1.1 - Importing the project into your IDE](/tutorials/1.15.2/forge/1.1-importing-project/)
+- Read and followed [1.2 - Basic Mod](/tutorials/1.15.2/forge/1.2-basic-mod/)
 
 Our mod currently doesn't do anything. Lets change that and print something to the log!  
 
