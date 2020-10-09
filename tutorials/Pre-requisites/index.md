@@ -15,12 +15,12 @@ It is ***HIGHLY RECOMMENDED*** that you learn Java before attempting to make a m
 - [Java Tutorial - Udemy](https://www.udemy.com/course/java-tutorial/) (Free course. Doesn't assume you have prior programming knowledge)
 
 
- I know that many of you won't spend any time trying to learn Java before you start modding (or probably even read this page at all), so I've tried to mix definitions of relevant concepts into my tutorials. **This is not a substitute for learning Java though!**  
+I know that many of you won't spend any time trying to learn Java before you start modding (or probably even read this page at all), so I've tried to mix definitions of relevant concepts into my tutorials. **This is not a substitute for learning Java though!**  
 
 It is also recommended, however not necessary, that you know about Java Reflection and Java Streams
 
 # Step 2 - Install the latest Java 8 JDK (Java Development Kit)
-Install the latest Java 8 JDK from [here](https://adoptopenjdk.net/).  
+Install the latest Java 8 JDK from [here](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot).  
 ***Download the 64 bit (x64) version, not the 32 bit (x86) version!!!***
 
 # Step 3 - Install an IDE (Integrated Development Environment)
